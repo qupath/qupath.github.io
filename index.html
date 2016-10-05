@@ -1,7 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<body>
-<h1>QuPath</h1>
-<p>Placeholder for a QuPath site with GitHub pages...</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>QuPath by qupath</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>QuPath</h1>
+        <p>QuPath - Open Source Digital Pathology</p>
+
+
+        <p class="view"><a href="https://github.com/qupath">View My GitHub Profile</a></p>
+
+      </header>
+      <section>
+        <h3>
+<a id="qupath-is-new-one-source-software-for-quantitative-pathology---developed-for-research-purposes-at-queens-university-belfast" class="anchor" href="#qupath-is-new-one-source-software-for-quantitative-pathology---developed-for-research-purposes-at-queens-university-belfast" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>QuPath</strong> is new, one source software for <strong>Quantitative Pathology</strong> - developed for research purposes at <strong>Queen's University Belfast</strong>
+</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/qupath_128.png" alt="QuPath logo"></p>
+
+<p>For more information, see the <a href="https://github.com/qupath/qupath/wiki">QuPath Wiki</a>.</p>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+
+<h3>
+<a id="whole-slide-viewing" class="anchor" href="#whole-slide-viewing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Whole slide viewing</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_viewer.jpg" alt="Whole slide viewing"></p>
+
+<p>Fast, flexible image viewer capable of displaying whole slide images (often &gt; 30 GB uncompressed) using dynamic color transforms (e.g. stain separation) and tracking slide navigation</p>
+
+<h3>
+<a id="biomarker-quantification" class="anchor" href="#biomarker-quantification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Biomarker quantification</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_biomarkers.jpg" alt="Biomarker quantification"></p>
+
+<p>Nuclear, cytoplasmic &amp; membranous biomarkers can all be quantified quickly using automated segmentation algorithms combined with trainable cell classification</p>
+
+<h3>
+<a id="tissue-microarray-support" class="anchor" href="#tissue-microarray-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tissue Microarray support</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_tmas.jpg" alt="TMA support"></p>
+
+<p>Automated dearraying of Tissue Microarrays and the ability to view related cores side-by-side</p>
+
+<h3>
+<a id="sophisticated-tumor-identification" class="anchor" href="#sophisticated-tumor-identification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sophisticated tumor identification</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_tumor_id.jpg" alt="Tumor identification"></p>
+
+<p>Powerful tumor identification algorithms can be applied directly to slides of interest - including slides stained for immune cells - without the need to stain for a separate tumor marker</p>
+
+<h3>
+<a id="fast-analysis" class="anchor" href="#fast-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fast analysis</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_fast.jpg" alt="Fast analysis"></p>
+
+<p>Large image regions are split into tiles where necessary, and these tiles analyzed in parallel with efficient algorithms - giving fast results without requiring specialist hardware</p>
+
+<h3>
+<a id="flexible-object-classification" class="anchor" href="#flexible-object-classification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flexible object classification</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_classification.jpg" alt="Object classification"></p>
+
+<p>Apply object classification with the default ‘out-of-the-box’ random forest classifier (from <a href="www.opencv.org">OpenCV</a>), or create highly-customized algorithms by tuning the choice of classifier, parameters and features used</p>
+
+<h3>
+<a id="interactive-tools" class="anchor" href="#interactive-tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Interactive tools</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_interactive.jpg" alt="Interactive tools"></p>
+
+<p>Extensive tools for slide navigation, annotating areas, exporting image regions or counting cells - either manually, or using automated cell detection</p>
+
+<h3>
+<a id="user-friendly-automated-analysis" class="anchor" href="#user-friendly-automated-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>User-friendly automated analysis</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_friendly.jpg" alt="User-friendly analysis"></p>
+
+<p>Workflows provide guided analysis for common tasks, or users can devise their own approaches by running commands in any order, which are automatically logged for reproducibility</p>
+
+<h3>
+<a id="stain-estimation" class="anchor" href="#stain-estimation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stain estimation</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_stains.jpg" alt="Stain estimation"></p>
+
+<p>Analysis can be tailored to different stains and scanners using advanced stain estimation, visualization &amp; optimization tools</p>
+
+<h3>
+<a id="scripting" class="anchor" href="#scripting" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scripting</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_scripting.jpg" alt="Scripting"></p>
+
+<p>Experienced users can enter commands and write scripts to perform sophisticated, customized analysis using QuPath’s powerful, efficient hierarchical data structures</p>
+
+<h3>
+<a id="data-exchange" class="anchor" href="#data-exchange" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data exchange</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_imagej.jpg" alt="Data exchange"></p>
+
+<p>Exchange data with open source tools (e.g. <a href="https://imagej.nih.gov/ij/">ImageJ</a>), or read images from a variety of sources, including cloud-based hosting</p>
+
+<h3>
+<a id="analytics--export" class="anchor" href="#analytics--export" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Analytics &amp; export</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_analytics.jpg" alt="Analytics and export"></p>
+
+<p>Create interactive results tables, histograms, scatterplots &amp; survival curves directly within QuPath, or export results in standard formats to import into other software if required</p>
+
+<h3>
+<a id="visualization" class="anchor" href="#visualization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Visualization</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_visualization.jpg" alt="Visualization"></p>
+
+<p>View measurements in context by color coding objects according to their features, e.g. to identify hotspots or visualize cell distributions for immuno-oncology applications</p>
+
+<h3>
+<a id="versatility" class="anchor" href="#versatility" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Versatility</h3>
+
+<p><img src="https://github.com/qupath/qupath/wiki/images/features/qupath_versatility.jpg" alt="Versatility"></p>
+
+<p>QuPath has been developed as a cross-platform application that runs on Windows, Mac OS X and Linux to support a wide range of applications and image types across pathology and the biosciences</p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
