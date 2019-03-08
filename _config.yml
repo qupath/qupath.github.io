@@ -1,0 +1,8 @@
+title: QuPath
+description: QuPath - Open Source Digital Pathology
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
