@@ -8,7 +8,7 @@
 
 **An early version of the _QuPath v0.2.0_ is [now available for testing](https://github.com/qupath/qupath/releases/tag/v0.2.0-m1)!**
 
-To find out more about what it includes click [here](QuPath-v0.2.0).
+To find out more about what it includes **[click here](QuPath-v0.2.0)**.
 
 Bankhead, P. et al. **QuPath: Open source software for digital pathology image analysis**. _Scientific Reports_ (2017). [https://doi.org/10.1038/s41598-017-17204-5](https://doi.org/10.1038/s41598-017-17204-5)
 {: .side-note .center-image}

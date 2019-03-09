@@ -35,7 +35,7 @@ I'm pretty excited about some of the new things and I hope you'll like them.
 >
 > The aim is to update (quite) rapidly to fix issues as they emerge. The 'milestone' status is indicated by the -m1 tagged on to the end of the version number.  The next update should be -m2, then -m3... and so on until the software is deemed stable enough to ditch the 'milestone' status entirely.
 >
-> Then work begons on the _next_ version...
+> Then work begins on the _next_ version...
 
 
 ## What's new in v0.2.0?
@@ -43,7 +43,7 @@ I'm pretty excited about some of the new things and I hope you'll like them.
 Firstly, everything I blogged about [here](https://petebankhead.github.io/qupath/2018/03/19/qupath-updates.html) should be included.  But there is _much_ more...
 
 ### Pixel classifier
-Probably the biggest new feature is the _Pixel classifier_.
+**Probably the biggest new feature is the _Pixel classifier_.**
 
 If you just want to quantify stained areas, this is for you. But it opens up a lot more possibilities.
 
