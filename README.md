@@ -6,7 +6,7 @@
 
 ## Big news!
 
-**An early version of the _QuPath v0.2.0_ is [now available for testing](https://github.com/qupath/qupath/releases/tag/v0.2.0-m1)!**
+**An early version of _QuPath v0.2.0_ is [now available here for testing](https://github.com/qupath/qupath/releases/tag/v0.2.0-m1)!**
 
 To find out more about what it includes **[click here](QuPath-v0.2.0)**.
 

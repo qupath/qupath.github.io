@@ -6,6 +6,8 @@ author: Pete Bankhead
 
 **This page describes QuPath v0.2.0-m1, which you can [download here](https://github.com/qupath/qupath/releases/tag/v0.2.0-m1)**.
 
+> It is mostly written for people who already know the software. If it is entirely new to you, you might want to check out [this](https://github.com/qupath/qupath/wiki) first.
+
 
 ## What has been happening since v0.1.2?
 
