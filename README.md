@@ -4,11 +4,28 @@
 
 **_QuPath_ is an open, powerful, flexible, extensible software platform for whole slide image analysis.**
 
-## Big news!
+----
 
-**An early version of _QuPath v0.2.0_ is [now available here for testing](https://github.com/qupath/qupath/releases/latest)!**
+# Latest news!
 
-**To find out more about what it includes [click here](QuPath-v0.2.0)**.
+## New funded position to work on QuPath
+
+There's a _**Research Fellow**_ position at the **University of Edinburgh** to work on QuPath.
+
+For further details & to apply **[click here!](https://www.vacancies.ed.ac.uk/pls/corehrrecruit/erq_jobspec_version_4.jobspec?p_id=048500)**
+
+_Application Deadline: 8 August 2019_
+
+
+## QuPath latest (pre)release
+
+**An early version of _QuPath v0.2.0_ is now available here for testing!**
+
+To find out more about what it includes **[click here](QuPath-v0.2.0)**.
+
+To download & try it out **[click here!](https://github.com/qupath/qupath/releases/latest)**
+
+----
 
 Bankhead, P. et al. **QuPath: Open source software for digital pathology image analysis**. _Scientific Reports_ (2017). [https://doi.org/10.1038/s41598-017-17204-5](https://doi.org/10.1038/s41598-017-17204-5)
 {: .side-note .center-image}
