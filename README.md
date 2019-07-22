@@ -8,6 +8,12 @@
 
 ## Latest news
 
+### QuPath 3rd milestone (pre)release
+
+**[Click here](https://github.com/qupath/qupath/releases/latest) to download & try out the latest QuPath milestone**.
+
+There is more info about what it includes **[here](QuPath-v0.2.0)**.
+
 ### Job opportunity to work on QuPath!
 
 There's a new _**Research Fellow**_ position at the **University of Edinburgh**.
@@ -15,15 +21,6 @@ There's a new _**Research Fellow**_ position at the **University of Edinburgh**.
 For further details & to apply **[click here!](https://www.vacancies.ed.ac.uk/pls/corehrrecruit/erq_jobspec_version_4.jobspec?p_id=048500)**
 
 _Application Deadline: 8 August 2019_
-
-
-### QuPath latest (pre)release
-
-**An early version of _QuPath v0.2.0_ is now available here for testing!**
-
-To find out more about what it includes **[click here](QuPath-v0.2.0)**.
-
-To download & try it out **[click here](https://github.com/qupath/qupath/releases/latest)**.
 
 ----
 **Please cite the QuPath paper if you use it in your work!**
