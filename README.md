@@ -8,19 +8,14 @@
 
 ## Latest news
 
-### QuPath 3rd milestone (pre)release
+### QuPath 4th milestone (pre)release!
 
-**[Click here](https://github.com/qupath/qupath/releases/latest) to download & try out the latest QuPath milestone**.
+**To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
-There is more info about what it includes **[here](QuPath-v0.2.0)**.
-
-### Job opportunity to work on QuPath!
-
-There's a new _**Research Fellow**_ position at the **University of Edinburgh**.
-
-For further details & to apply **[click here!](https://www.vacancies.ed.ac.uk/pls/corehrrecruit/erq_jobspec_version_4.jobspec?p_id=048500)**
-
-_Application Deadline: 8 August 2019_
+For more information about the changes & new features in each milestone:
+* [Milestones 1 & 2](QuPath-v0.2.0)
+* [Milestones 3](https://petebankhead.github.io/qupath/2019/07/25/third-milestone.html)
+* [Milestones 4](https://petebankhead.github.io/qupath/2019/08/20/fourth-milestone.html)
 
 ----
 **Please cite the QuPath paper if you use it in your work!**
