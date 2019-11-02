@@ -10,8 +10,6 @@
 
 ### November 2019: QuPath 5th milestone (pre)release!
 
-[<img src="https://petebankhead.github.io/assets/images/m5/QuPath%20m5-smaller.jpg" width=300px />](https://petebankhead.github.io/qupath/2019/11/02/fifth-milestone.html)
-
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
 For more information about the changes & new features in each milestone:
