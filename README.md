@@ -8,14 +8,15 @@
 
 ## Latest news
 
-### QuPath 4th milestone (pre)release!
+### November 2019: QuPath 5th milestone (pre)release!
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
 For more information about the changes & new features in each milestone:
-* [Milestones 1 & 2](QuPath-v0.2.0)
-* [Milestones 3](https://petebankhead.github.io/qupath/2019/07/25/third-milestone.html)
+* [Milestones 5](https://petebankhead.github.io/qupath/2019/11/02/fifth-milestone.html)
 * [Milestones 4](https://petebankhead.github.io/qupath/2019/08/20/fourth-milestone.html)
+* [Milestones 3](https://petebankhead.github.io/qupath/2019/07/25/third-milestone.html)
+* [Milestones 1 & 2](QuPath-v0.2.0)
 
 ----
 **Please cite the QuPath paper if you use it in your work!**
