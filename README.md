@@ -8,7 +8,7 @@
 
 ## Latest news
 
-### November 2019: QuPath 6th milestone (pre)release!
+### November 2019: QuPath 7th milestone (pre)release!
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
