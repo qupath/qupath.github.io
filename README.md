@@ -8,11 +8,12 @@
 
 ## Latest news
 
-### December 2019: QuPath 8th milestone (pre)release!
+### February 2020: QuPath 0th milestone (pre)release!
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
 For more information about the changes & new features in each milestone:
+* All-new documentation at https://qupath.readthedocs.io
 * [Milestones 7 & 8](https://petebankhead.github.io/qupath/2019/12/10/eighth-milestone.html)
 * [Milestones 6](https://petebankhead.github.io/qupath/2019/11/17/sixth-milestone.html)
 * [Milestones 5](https://petebankhead.github.io/qupath/2019/11/02/fifth-milestone.html)
