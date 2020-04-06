@@ -8,6 +8,14 @@
 
 ## Latest news
 
+### April 2020: QuPath webinar at NEUBIAS Academy
+There will be a QuPath webinar on April 29 to introduce the new features in v0.2.0.
+
+For full details & registration, see https://neubiasacademy.org/
+
+### April 2020: *From Samples to Knowledge* workshop on YouTube
+Videos from the recent QuPath workshop held at the La Jolla Institute for Immunology are now online at https://tiny.cc/QuPath
+
 ### February 2020: QuPath 9th milestone (pre)release!
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
