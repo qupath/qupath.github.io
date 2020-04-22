@@ -12,9 +12,9 @@
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
-Find the documentation at https://qupath.readthedocs.io
+Find the documentation at [https://qupath.readthedocs.io](https://qupath.readthedocs.io)
 
-This version is close to the stable release of v0.2.0, please help with some late testing!
+This version is close to the stable release of v0.2.0 - please help with some late testing!
 
 ### April 2020: QuPath webinar at NEUBIAS Academy
 There will be a QuPath webinar on April 29 to introduce the new features in v0.2.0.
