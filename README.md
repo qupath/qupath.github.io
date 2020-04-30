@@ -8,7 +8,7 @@
 
 ## Latest news
 
-### April 2020: QuPath 10th milestone (pre)release!
+### April 2020: QuPath 11th milestone (pre)release!
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
