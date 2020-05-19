@@ -8,18 +8,17 @@
 
 ## Latest news
 
-### April 2020: QuPath 11th milestone (pre)release!
+### May 2020: QuPath 12th milestone (pre)release!
 
 **To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
 
 Find the documentation at [https://qupath.readthedocs.io](https://qupath.readthedocs.io)
 
-This version is close to the stable release of v0.2.0 - please help with some late testing!
+This version is a *release candidate*. 
+It contains all the planned features for v0.2.0 - please help with some late testing!
 
 ### April 2020: QuPath webinar at NEUBIAS Academy
-There will be a QuPath webinar on April 29 to introduce the new features in v0.2.0.
-
-For full details & registration, see [https://neubiasacademy.org/](https://neubiasacademy.org/)
+The QuPath webinar at [NEUBIAS Academy](https://neubiasacademy.org/) is now [on YouTube](https://youtu.be/4An5n6Y_rRI).
 
 ### April 2020: *From Samples to Knowledge* workshop online
 Videos from the recent QuPath workshop held at the La Jolla Institute for Immunology are now on [YouTube](https://www.youtube.com/playlist?list=PLlGXRBscPbCD89fRULm4peopF57qugciN)
