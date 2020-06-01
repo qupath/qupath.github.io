@@ -6,16 +6,30 @@
 
 ----
 
-## Latest news
+## QuPath v0.2.0 now available!
 
-### May 2020: QuPath 12th milestone (pre)release!
+**The first Edinburgh release of QuPath is [available here](https://github.com/qupath/qupath/releases/latest)**.
 
-**To download & try out the latest QuPath milestone [click here](https://github.com/qupath/qupath/releases/latest)**.
+More than three years since v0.1.2 and *a lot* has changed. <br/>
+Highlights include:
+* Entirely new pixel classifier ([link](https://qupath.readthedocs.io/en/latest/docs/tutorials/pixel_classification.html))
+* Rewritten object classifiers ([link](https://qupath.readthedocs.io/en/latest/docs/tutorials/cell_classification.html))
+* New methods of thresholding images ([link](https://qupath.readthedocs.io/en/latest/docs/tutorials/thresholding.html))
+* New & improved tools to create & adjust annotations ([link](https://qupath.readthedocs.io/en/latest/docs/starting/annotating.html))
+* Much more support for multiplexed images ([link](https://qupath.readthedocs.io/en/latest/docs/tutorials/multiplex_analysis.html))
+* Updated object hierarchy ([link](https://qupath.readthedocs.io/en/latest/docs/concepts/object_hierarchy.html))
+* Bigger, better, smarter projects ([link](https://qupath.readthedocs.io/en/latest/docs/tutorials/projects.html))
+* Export images & annotations, including pyramidal OME-TIFFs ([link](https://qupath.readthedocs.io/en/latest/docs/advanced/exporting_images.html))
+* *Many* bug fixes, performance improvements... and a lot more ([link](https://github.com/qupath/qupath/blob/master/CHANGELOG.md))
 
-Find the documentation at [https://qupath.readthedocs.io](https://qupath.readthedocs.io)
+Find the full documentation at [https://qupath.readthedocs.io](https://qupath.readthedocs.io)
 
-This version is a *release candidate*. 
-It contains all the planned features for v0.2.0 - please help with some late testing!
+![QuPath screenshots]({{ site.baseurl }}/images/qupath_v0.2.0_larger.jpg){: .center-image }
+
+
+----
+
+## Other news
 
 ### April 2020: QuPath webinar at NEUBIAS Academy
 The QuPath webinar at [NEUBIAS Academy](https://neubiasacademy.org/) is now [on YouTube](https://youtu.be/4An5n6Y_rRI).
@@ -23,22 +37,11 @@ The QuPath webinar at [NEUBIAS Academy](https://neubiasacademy.org/) is now [on 
 ### April 2020: *From Samples to Knowledge* workshop online
 Videos from the recent QuPath workshop held at the La Jolla Institute for Immunology are now on [YouTube](https://www.youtube.com/playlist?list=PLlGXRBscPbCD89fRULm4peopF57qugciN)
 
-For more information about the changes & new features in older milestone releases:
-* [Milestones 7 & 8](https://petebankhead.github.io/qupath/2019/12/10/eighth-milestone.html)
-* [Milestones 6](https://petebankhead.github.io/qupath/2019/11/17/sixth-milestone.html)
-* [Milestones 5](https://petebankhead.github.io/qupath/2019/11/02/fifth-milestone.html)
-* [Milestones 4](https://petebankhead.github.io/qupath/2019/08/20/fourth-milestone.html)
-* [Milestones 3](https://petebankhead.github.io/qupath/2019/07/25/third-milestone.html)
-* [Milestones 1 & 2](QuPath-v0.2.0)
-
 ----
-**Please cite the QuPath paper if you use it in your work!**
+**Please remember to cite the QuPath paper if you use it in your work!**
 
 Bankhead, P. et al. **QuPath: Open source software for digital pathology image analysis**. _Scientific Reports_ (2017). [https://doi.org/10.1038/s41598-017-17204-5](https://doi.org/10.1038/s41598-017-17204-5)
 {: .side-note .center-image}
-
-![QuPath screenshots]({{ site.baseurl }}/images/qupath-images.jpg){: .center-image }
-<!-- http://creativecommons.org/licenses/by/4.0/ -->
 
 _QuPath_ is developed at the <a href="https://www.ed.ac.uk/pathology">University of Edinburgh</a>.
 

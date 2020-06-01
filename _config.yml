@@ -9,9 +9,9 @@ logo: images/qupath-banner-web-logo.jpg
 show_downloads: true
 
 github:
-  win_url: https://github.com/qupath/qupath/releases/download/v0.1.2/QuPath-0.1.2.exe
-  mac_url: https://github.com/qupath/qupath/releases/download/v0.1.2/QuPath-0.1.2.dmg
-  linux_url: https://github.com/qupath/qupath/releases/download/v0.1.2/QuPath-0.1.2.tar.gz
+  win_url: https://github.com/qupath/qupath/releases/download/v0.2.0/QuPath-0.2.0-Windows.msi
+  mac_url: https://github.com/qupath/qupath/releases/download/v0.2.0/QuPath-0.2.0-Mac.pkg
+  linux_url: https://github.com/qupath/qupath/releases/download/v0.2.0/QuPath-0.2.0-Linux.tar.xz
 
   source_url: https://github.com/qupath/qupath
   docs_url: http://qupath.readthedocs.io
