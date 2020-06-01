@@ -24,6 +24,8 @@ Highlights include:
 
 Find the full documentation at [https://qupath.readthedocs.io](https://qupath.readthedocs.io)
 
+> **Important!** It is not recommended to mix different version of QuPath for analysis. If you started a project in v0.1.2, it is probably best to continue with that version - or start again with v0.2.0.
+
 ![QuPath screenshots]({{ site.baseurl }}/images/qupath_v0.2.0_larger.jpg){: .center-image }
 
 
