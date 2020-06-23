@@ -6,6 +6,12 @@
 
 ----
 
+## QuPath v0.2.1 now available!
+
+The is a *minor release* [available here](https://github.com/qupath/qupath/releases/latest).
+
+See [the changelog](https://github.com/qupath/qupath/blob/master/CHANGELOG.md) for more details.
+
 ## QuPath v0.2.0 now available!
 
 **The first Edinburgh release of QuPath is [available here](https://github.com/qupath/qupath/releases/latest)**.
