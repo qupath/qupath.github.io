@@ -6,13 +6,22 @@
 
 ----
 
-## QuPath v0.2.1 now available!
+<div>
+<h2>QuPath job opportunity in Edinburgh!</h2>
 
-The is a *minor release* [available here](https://github.com/qupath/qupath/releases/latest).
+<b>New 12-month position to work with us on QuPath - <a href="https://forum.image.sc/t/research-fellow-research-software-engineer-position-to-help-develop-qupath/40676">see here</a> for details.
+The closing date for applications is 19 August 2020.</b>
+</div>
+{: .side-note .center-image}
 
-See [the changelog](https://github.com/qupath/qupath/blob/master/CHANGELOG.md) for more details.
 
-## QuPath v0.2.0 now available!
+## July 2020: New updates released
+
+QuPath v0.2.2 is [available here](https://github.com/qupath/qupath/releases/latest).
+
+This is a *minor release* focused on fixing bugs; see [the changelog](https://github.com/qupath/qupath/blob/master/CHANGELOG.md) for details.
+
+## June 2020: QuPath v0.2.0 now available!
 
 **The first Edinburgh release of QuPath is [available here](https://github.com/qupath/qupath/releases/latest)**.
 
