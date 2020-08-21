@@ -6,15 +6,6 @@
 
 ----
 
-<div>
-<h2>QuPath job opportunity in Edinburgh!</h2>
-
-<b>New 12-month position to work with us on QuPath - <a href="https://forum.image.sc/t/research-fellow-research-software-engineer-position-to-help-develop-qupath/40676">see here</a> for details.
-The closing date for applications is 19 August 2020.</b>
-</div>
-{: .side-note .center-image}
-
-
 ## July 2020: New updates released
 
 QuPath v0.2.2 is [available here](https://github.com/qupath/qupath/releases/latest).
