@@ -6,9 +6,9 @@
 
 ----
 
-## July 2020: New updates released
+## September 2020: New updates released
 
-QuPath v0.2.2 is [available here](https://github.com/qupath/qupath/releases/latest).
+QuPath v0.2.3 is [available here](https://github.com/qupath/qupath/releases/latest).
 
 This is a *minor release* focused on fixing bugs; see [the changelog](https://github.com/qupath/qupath/blob/master/CHANGELOG.md) for details.
 
