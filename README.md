@@ -6,6 +6,17 @@
 
 ----
 
+## March 2021: We need your help!
+
+It's grant application time again -- which means planning for the future and trying to convince funding bodies that [QuPath](http://qupath.github.io) is important.
+
+**Please help us by completing our [QuPath User Survey](https://edinburgh.onlinesurveys.ac.uk/qupath-user-survey-2021)!**
+
+By participating, you not only help us to establish QuPath's continued existence, but also to shape our priorities. This isn't just about adding new software features and improving the existing ones: we'd really appreciate your views on training opportunities, support models, research collaborations, and community events as we aim to make the software as useful as possible for researchers worldwide.
+
+**Thanks!**
+
+
 ## September 2020: New updates released
 
 QuPath v0.2.3 is [available here](https://github.com/qupath/qupath/releases/latest).
