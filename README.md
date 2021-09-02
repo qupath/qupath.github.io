@@ -2,9 +2,29 @@
 
 <!-- ## QuPath -->
 
-**_QuPath_ is an open, powerful, flexible, extensible software platform for whole slide image analysis.**
+**_QuPath_ is an open, powerful, flexible, extensible software platform for bioimage analysis.**
 
 ----
+
+## September 2021: QuPath v0.3.0 now available!
+
+### Release highlights
+* **New 'Create density map' command** to visualize hotspots & generate annotations based on object densities
+* **_Many_ code fixes** & **major performance improvements** - especially for pixel classification
+* **Revised code structure**, with non-core features now separated out as optional **extensions**
+* **Rotate images** in the viewer 360&deg;
+* **Easier OpenCV scripting** with many new methods in `OpenCVTools`
+* **New build scripts**, now with **continuous integration** via GitHub Actions
+* **Groundwork for new features** coming soon...
+
+**Download QuPath v0.3.0 [here](https://github.com/qupath/qupath/releases/tag/v0.3.0)!**
+
+![QuPath screenshots]({{ site.baseurl }}/images/qupath_v0.2.0_larger.jpg){: .center-image }
+
+**Please remember to cite the QuPath paper if you use it in your work!**
+
+Bankhead, P. et al. **QuPath: Open source software for digital pathology image analysis**. _Scientific Reports_ (2017). [https://doi.org/10.1038/s41598-017-17204-5](https://doi.org/10.1038/s41598-017-17204-5)
+{: .side-note .center-image}
 
 ## March 2021: We need your help!
 
@@ -43,8 +63,6 @@ Find the full documentation at [https://qupath.readthedocs.io](https://qupath.re
 
 > **Important!** It is not recommended to mix different version of QuPath for analysis. If you started a project in v0.1.2, it is probably best to continue with that version - or start again with v0.2.0.
 
-![QuPath screenshots]({{ site.baseurl }}/images/qupath_v0.2.0_larger.jpg){: .center-image }
-
 
 ----
 
@@ -57,10 +75,6 @@ The QuPath webinar at [NEUBIAS Academy](https://neubiasacademy.org/) is now [on 
 Videos from the recent QuPath workshop held at the La Jolla Institute for Immunology are now on [YouTube](https://www.youtube.com/playlist?list=PLlGXRBscPbCD89fRULm4peopF57qugciN)
 
 ----
-**Please remember to cite the QuPath paper if you use it in your work!**
-
-Bankhead, P. et al. **QuPath: Open source software for digital pathology image analysis**. _Scientific Reports_ (2017). [https://doi.org/10.1038/s41598-017-17204-5](https://doi.org/10.1038/s41598-017-17204-5)
-{: .side-note .center-image}
 
 _QuPath_ is developed at the <a href="https://www.ed.ac.uk/pathology">University of Edinburgh</a>.
 
