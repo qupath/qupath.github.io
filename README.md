@@ -6,6 +6,12 @@
 
 ----
 
+## September 2021: New QuPath API docs
+
+To coincide with the release of v0.3.0, QuPath's API docs are finally online at [http://qupath.github.io/javadoc/docs](http://qupath.github.io/javadoc/docs).
+
+These give an overview of all the public methods in the main QuPath code, and may be useful for anyone writing custom scripts or extensions.
+
 ## September 2021: QuPath v0.3.0 now available!
 
 ### Release highlights
