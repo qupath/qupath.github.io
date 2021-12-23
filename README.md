@@ -6,6 +6,12 @@
 
 ----
 
+## December 2021: QuPath v0.3.1 now available!
+
+This is a *minor* update that aims to be fully compatible with v0.3.0 -- but contains some important bug fixes and performance improvements.
+
+**Download QuPath v0.3.1 [here](https://github.com/qupath/qupath/releases/tag/v0.3.1)!**
+
 ## September 2021: New QuPath API docs
 
 To coincide with the release of [v0.3.0](https://github.com/qupath/qupath/releases/tag/v0.3.0), QuPath's API docs are finally online at [http://qupath.github.io/javadoc/docs](http://qupath.github.io/javadoc/docs).
