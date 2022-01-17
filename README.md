@@ -6,6 +6,12 @@
 
 ----
 
+## January 2022: QuPath v0.3.2 now available!
+
+This is a *minor* update that aims to be fully compatible with v0.3.0 and v0.3.1 -- but contains some important bug fixes and performance improvements.
+
+**Download QuPath v0.3.2 [here](https://github.com/qupath/qupath/releases/tag/v0.3.2)!**
+
 ## December 2021: QuPath v0.3.1 now available!
 
 This is a *minor* update that aims to be fully compatible with v0.3.0 -- but contains some important bug fixes and performance improvements.

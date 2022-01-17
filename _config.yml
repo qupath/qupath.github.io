@@ -2,18 +2,19 @@ theme: jekyll-theme-minimal
 
 title: QuPath
 description: Quantitative Pathology & <span class="wraptastefully">Bioimage Analysis</span>
+repository: qupath/qupath.github.io
 
 # logo: images/qupath_128.png
 logo: images/qupath-banner-web-logo.jpg
 
-qupath_version: 0.3.1
+qupath_version: 0.3.2
 
 show_downloads: true
 
 github:
-  win_url: https://github.com/qupath/qupath/releases/download/v0.3.1/QuPath-0.3.1-Windows.msi
-  mac_url: https://github.com/qupath/qupath/releases/download/v0.3.1/QuPath-0.3.1-Mac.pkg
-  linux_url: https://github.com/qupath/qupath/releases/download/v0.3.1/QuPath-0.3.1-Linux.tar.xz
+  win_url: https://github.com/qupath/qupath/releases/download/v0.3.2/QuPath-0.3.2-Windows.msi
+  mac_url: https://github.com/qupath/qupath/releases/download/v0.3.2/QuPath-0.3.2-Mac.pkg
+  linux_url: https://github.com/qupath/qupath/releases/download/v0.3.2/QuPath-0.3.2-Linux.tar.xz
 
   source_url: https://github.com/qupath/qupath
   docs_url: http://qupath.readthedocs.io
