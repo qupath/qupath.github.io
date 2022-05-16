@@ -8,18 +8,14 @@ You can find & download all QuPath releases [here](https://github.com/qupath/qup
 
 ----
 
-## April 2022: QuPath Webinar & Hackathon
+## May 2022: Join the QuPath team!
 
-Please join us for a new **QuPath webinar** on **25 April 2022**!
+We're currently advertising **two Postdoc / Research Software Engineer positions** to help develop & support [**QuPath**](https://qupath.github.io).
 
-The webinar will run twice with **live Q&A** - register below for the time that suits you best:
+* [Position #1 -- focus on core software, handling huge images, image analysis](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/job/3974)
+* [Position #2 -- focus on user experience, data visualization](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/job/4009)
 
-* [**QuPath: Past, Present & Future** - 09:00 BST (08:00 UTC / 10:00 CET)](https://teams.microsoft.com/registration/sAafLmkWiUWHiRCgaTTcYQ,lCxQUFpGhUiXcIjHVa19KQ,Z21v_XIo00i6f-BkeurL6w,9tkg65MNAUe9pACAAtMMdw,-monpQEEnUOqvAkQAYk2-A,NUAJljwkG0mt0fhTEhMlcA?mode=read&tenantId=2e9f06b0-1669-4589-8789-10a06934dc61)
-* [**QuPath: Past, Present & Future** - 18:00 BST (17:00 UTC / 19:00 CET)](https://teams.microsoft.com/registration/sAafLmkWiUWHiRCgaTTcYQ,lCxQUFpGhUiXcIjHVa19KQ,Z21v_XIo00i6f-BkeurL6w,C7YORnzI7UGXc_lkMD3UEA,8Z1TcKu-BUW2SD8shP1JFw,7gOmQInma0Ki9TtuHF5Vhg?mode=read&tenantId=2e9f06b0-1669-4589-8789-10a06934dc61)
-
-For the rest of the week, there will be a **QuPath hackathon for coders**.
-
-**For more details, see the forum announcement [here](https://forum.image.sc/t/april-2022-qupath-webinar-hackathon/65779).**
+**For more details, see the forum announcement [here](https://forum.image.sc/t/two-opportunities-to-join-the-qupath-team/67092).**
 
 
 ## January 2022: QuPath v0.3.2 now available!
