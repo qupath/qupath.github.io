@@ -8,6 +8,16 @@ You can find & download all QuPath releases [here](https://github.com/qupath/qup
 
 ----
 
+## July 2022: What's happening
+
+**QuPath (v0.4.0) is coming soon!**.
+I think it's a pretty exciting release.
+There are a few more things to add before it's ready, but hopefully they'll be done before the end of August.
+
+Check out the [changelog](https://github.com/qupath/qupath/blob/main/CHANGELOG.md) for a sneak preview - or even [build it from source](https://qupath.readthedocs.io/en/stable/docs/reference/building.html) if you want to explore early.
+
+Meanwhile, you can find us on [twitter](https://twitter.com/qupath), [YouTube](https://www.youtube.com/c/qupath) and [image.sc](https://forum.image.sc/tag/qupath).
+
 ## May 2022: Join the QuPath team!
 
 We're currently advertising **two Postdoc / Research Software Engineer positions** to help develop & support [**QuPath**](https://qupath.github.io).
@@ -15,7 +25,9 @@ We're currently advertising **two Postdoc / Research Software Engineer positions
 * [Position #1 -- focus on core software, handling huge images, image analysis](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/job/3974)
 * [Position #2 -- focus on user experience, data visualization](https://elxw.fa.em3.oraclecloud.com/hcmUI/CandidateExperience/en/job/4009)
 
-**For more details, see the forum announcement [here](https://forum.image.sc/t/two-opportunities-to-join-the-qupath-team/67092).**
+For more details, see the forum announcement [here](https://forum.image.sc/t/two-opportunities-to-join-the-qupath-team/67092).
+
+> *Update: These positions are now closed - but watch out for **four new positions** to be advertised soon!*
 
 
 ## January 2022: QuPath v0.3.2 now available!
