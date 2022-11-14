@@ -43,6 +43,15 @@ a:visited:hover {
   text-decoration: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+hr {
+  max-width: 980px;
+  width: 50%;
+}
+
 .standard-component {
   display: block;
   position: relative;
@@ -61,23 +70,22 @@ a:visited:hover {
 
 #news-banner {
   position: fixed;
-  box-sizing: border-box;
-  z-index: 2147483645;
+  z-index: 1;
   top: 0;
   left: 0;
-  margin-bottom: 50px;
+  box-sizing: border-box;
   width: 100%;
-  min-width: 340px;
+  min-width: 330px;
+  margin-bottom: 50px;
   border-radius: 0px 0px 10px 10px;
   background-color: #324b69;
 }
 
 div.news-banner-text {
+  max-width: 100%;
   padding-left: 50px;
   padding-right: 50px;
   overflow: auto;
-  max-width: 100%;
-  color: aliceblue;
   text-align: center;
 }
 
@@ -86,13 +94,17 @@ div.news-banner-text p {
 }
 
 div.news-banner-text a {
-  color: white;
+  color: aliceblue;
 }
 
 div.news-banner-close {
   position: absolute;
   top: 15px;
   right: 20px;
+}
+
+.fa-xmark {
+  color: aliceblue;
 }
 
 button.close {
@@ -105,18 +117,10 @@ button.close {
 div.news-banner-close:hover {
   text-decoration: none;
   cursor: pointer;
-}
-
-/* div.close:focus {
-    opacity: 1;
-  } */
-
-.fa-xmark {
-  color: white;
+  color: aliceblue;
 }
 
 /* -------------Hero Styling------------- */
-
 #hero {
   padding-top: 68px;
 }
@@ -141,31 +145,22 @@ img {
 /* -------------Download Styling------------- */
 
 .download-container .button {
+  display: inline-block;
+  width: 300px;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 9px 15px;
+  margin: 10px;
+  line-height: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16pt;
+  border-radius: 10px;
+  border: 3px solid white;
+  color: #000c;
+  background-color: #d9d9d9;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
-  border: 3px solid white;
-  border-radius: 3px;
-  font-size: 32px;
-  text-align: center;
-  display: inline-block;
-  padding: 9px 15px;
-  background-color: #d9d9d9;
-  color: black;
-  line-height: inherit;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 10px;
-  width: 300px;
-  margin: 10px;
-  font-size: 16pt;
-  /* background-color: #d9d9d9;
-  background-image: linear-gradient(to bottom, #ffd000aa, #ffd000dd); */
-}
-
-.download-container p {
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .download-container .button {
@@ -177,19 +172,13 @@ img {
   background-color: hsla(49, 100%, 50%, 0.9);
 }
 
-/* Download button option 1 */
-/* .download-container .windows-button:hover {
-  border: 3px solid blue;
+.download-container p {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.download-container .mac-button:hover {
-  border: 3px solid yellow;
-}
-
-.download-container .linux-button:hover {
-  border: 3px solid greenyellow;
-} */
-
+/* Which OS download to hide */
 html.mac [data-for-os="win"] {
   display: none !important;
 }
@@ -214,51 +203,42 @@ html.lin [data-for-os="mac"] {
   display: none !important;
 }
 
-
-
 /* -------------Slideshow Styling------------- */
-
-* {
-  box-sizing: border-box;
-}
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
 .slide {
-  background-color: white;
+  position: relative;
   width: 80%;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
   padding-top: 3%;
   padding-bottom: 3%;
+  background-color: transparent;
 }
 
 .slide-text {
   position: absolute;
   left: 10%;
+  width: 50%;
   max-width: 55%;
   text-align: left;
-  width: 50%;
 }
 
 .slide img {
   position: absolute;
   right: 10%;
-  margin-top: 20px;
   max-width: 200px;
+  margin-top: 20px;
 }
 
-.screenshot-shadow {
+.screenshot-img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -272,69 +252,43 @@ html.lin [data-for-os="mac"] {
   left: 10%;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
-  color: black;
+  padding: 6px 11px 6px 11px;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
+  border-radius: 23px;
+  color: #000c;
+  cursor: pointer;
+  transition: 0.6s ease;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 10%;
-  border-radius: 3px 0 0 3px;
 }
 
 .prev {
   left: 10%;
-  border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: hsla(216, 90%, 77%, 0.5);
 }
 
-/* Caption text */
-.text {
-  color: #324b69;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #324b69;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
 .dot {
+  display: inline-block;
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
+  background-color: #bbb;
   transition: background-color 0.6s ease;
 }
 
@@ -343,7 +297,6 @@ html.lin [data-for-os="mac"] {
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -390,7 +343,7 @@ html.lin [data-for-os="mac"] {
 
 @media screen and (max-width: 700px) {
   .slide {
-    height: 350px;
+    height: 400px;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -408,16 +361,18 @@ html.lin [data-for-os="mac"] {
 
   .slide img {
     position: absolute;
-    top: 0%;
-    left: unset;
-    right: unset;
     max-width: 50%;
     max-height: 182px;
-    padding-bottom: 15px;
+    left: unset;
+    right: unset;
+    margin-bottom: 15px;
+  }
+
+  .screenshot-img {
+    top: 10%;
   }
 
   .slide .slide-text.inverse-text {
-    align-self: center;
     position: absolute;
     left: unset;
     right: unset;
@@ -430,35 +385,34 @@ html.lin [data-for-os="mac"] {
 
 /* -------------Three icons styling------------- */
 ul.feature-icons {
+  display: flex;
+  justify-content: center;
   padding-inline-start: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
   margin: 0px;
 }
 
 .feature-icons li {
+  display: inline-block;
+  width: 250px;
+  padding-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 3%;
   margin-right: 3%;
-  display: inline-block;
-  width: 250px;
-  padding-bottom: 0px;
 }
 
 .icons-color {
-  padding-top: 17px;
-  padding-bottom: 10px;
-  color: #000c;
-  /* test */
-  background: hsla(215, 100%, 76%, 0.5);
-  transition: background-color 0.5s ease-out 30ms;
   width: 120px;
   height: 120px;
   z-index: -5;
+  padding-top: 17px;
+  padding-bottom: 10px;
   border-radius: 100px;
+  color: #000c;
+  background: hsla(215, 100%, 76%, 0.5);
+  transition: background-color 0.5s ease-out 30ms;
 }
 
 .icons-color:hover {
@@ -495,11 +449,11 @@ ul.feature-icons {
 
 .three-icons-text {
   position: relative;
-  color: #727272;
-  overflow: auto;
   max-width: 200px;
+  overflow: auto;
   margin-left: auto;
   margin-right: auto;
+  color: #727272;
 }
 
 p {
@@ -515,14 +469,11 @@ p {
 }
 
 /* -------------Footer styling------------- */
-
-hr {
-  max-width: 980px;
-  width: 50%;
-}
-
 p.footer-text {
+  max-width: 80%;
   font-size: 10pt;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fa-brands {

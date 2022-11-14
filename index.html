@@ -56,13 +56,13 @@
         <div class="download-container">
           <a class="button windows-button"
             href="https://github.com/qupath/qupath/releases/download/v0.3.2/QuPath-0.3.2-Windows.msi" data-for-os="win"
-            data-download="win">Download for Windows</a>
+            data-download="win" aria-label="follow this link to download qupath for windows m s i 212 M B">Download for Windows</a>
           <a class="button mac-button"
             href="https://github.com/qupath/qupath/releases/download/v0.3.2/QuPath-0.3.2-Mac.pkg" data-for-os="mac"
-            data-download="mac">Download for macOS</a>
+            data-download="mac" aria-label="follow this link to download qupath for macOS p k g 196 M B">Download for macOS</a>
           <a class="button linux-button"
             href="https://github.com/qupath/qupath/releases/download/v0.3.2/QuPath-0.3.2-Linux.tar.xz" data-for-os="lin"
-            data-download="lin">Download for Linux</a>
+            data-download="lin" aria-label="follow this link to download qupath for linux t a r 196 M B">Download for Linux</a>
           <p>Looking for another version? Download <a href="https://github.com/qupath/qupath/releases/" target=blank>past releases</a>
           </p>
           <p>Trouble installing? Check out the <a
@@ -80,7 +80,7 @@
                 See how QuPath can help visualize & analyze complex images with our step-by-step guides on <a href="https://qupath.readthedocs.io/en/0.3/" target=blank>ReadTheDocs</a>.
               </p>
             </div>
-            <img src="/images/slideshow/qupath-getting-started.png" class="screenshot-shadow" alt="">
+            <img src="/images/slideshow/qupath-getting-started.png" class="screenshot-img" alt="">
           </div>
           <!-- <div class="text">Slide 1</div> -->
         </div>
@@ -92,7 +92,7 @@
                 Dive deeper into what QuPath can do by checking out the tutorials & workshops on <a href="https://www.youtube.com/c/qupath" target=blank>YouTube</a>.
               </p>
             </div>
-            <img src="/images/slideshow/qupath-youtube.png" class="inverse screenshot-shadow" alt="">
+            <img src="/images/slideshow/qupath-youtube.png" class="inverse screenshot-img" alt="">
           </div>
           <!-- <div class="text">Slide 2</div> -->
         </div>
@@ -104,7 +104,7 @@
                 QuPath has lots of tricks to annotate images quickly. See them in action in this <a href="https://twitter.com/petebankhead/status/1295965136646176768?s=20&t=ETG2R8JKrhtT-kSZdW-Cnw" target=blank>annotation tweetorial</a>.
               </p>
             </div>
-            <img src="/images/slideshow/annotation-snapping.jpg" class="screenshot-shadow" alt="">
+            <img src="/images/slideshow/annotation-snapping.jpg" class="screenshot-img" alt="">
           </div>
           <!-- <div class="text">Slide 3</div> -->
         </div>
@@ -138,32 +138,32 @@
       <br>
       <!-- The dots/circles -->
       <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(1)" tabindex= "0" aria-label="Slide 1"></span>
+        <span class="dot" onclick="currentSlide(2)" tabindex= "0" aria-label="Slide 2"></span>
+        <span class="dot" onclick="currentSlide(3)" tabindex= "0" aria-label="Slide 3"></span>
+        <span class="dot" onclick="currentSlide(4)" tabindex= "0" aria-label="Slide 4"></span>
+        <span class="dot" onclick="currentSlide(5)" tabindex= "0" aria-label="Slide 5"></span>
       </div>
       <!-- Three Icons container -->
       <div id="three-icons" class="standard-component">
         <ul class="feature-icons">
           <li>
-            <a href="https://qupath.readthedocs.io/en/stable/" target=blank><i
+            <a href="https://qupath.readthedocs.io/en/stable/" target=blank tabindex= "-1"><i
                 class="fa-regular fa-file-lines fa-5x icons-color green-color"></i></a>
-            <h2><a href="https://qupath.readthedocs.io/en/stable/" target=blank class="three-icons-title">Docs</a></h1>
+            <h2><a href="https://qupath.readthedocs.io/en/stable/" target=blank class="three-icons-title" aria-label="follow this link to learn more about qupath">Docs</a></h1>
               <p class="three-icons-text">Find QuPath step-by-step guides, video tutorials and more on <a href="https://qupath.readthedocs.io/en/stable/" target=blank>ReadTheDocs</a>
               </p>
           </li>
           <li>
-            <a href="https://forum.image.sc/tag/qupath" target=blank><i
+            <a href="https://forum.image.sc/tag/qupath" target=blank tabindex= "-1"><i
                 class="fa-regular fa-comments fa-5x icons-color"></i></a>
-            <h2><a href="https://forum.image.sc/tag/qupath" target=blank class="three-icons-title">Discuss</a></h1>
+            <h2><a href="https://forum.image.sc/tag/qupath" target=blank class="three-icons-title" aria-label="follow this link to access discussons on the image.sc forum">Discuss</a></h1>
               <p class="three-icons-text">Join other QuPath users and search thousands of discussions on <a href="https://forum.image.sc/tag/qupath" target=blank>image.sc</a></p>
           </li>
           <li>
-            <a href="https://github.com/qupath/qupath" target=blank><i
+            <a href="https://github.com/qupath/qupath" target=blank tabindex= "-1"><i
                 class="fa-solid fa-code fa-5x icons-color red-color"></i></a>
-            <h2><a href="https://github.com/qupath/qupath" target=blank class="three-icons-title">Develop</a></h1>
+            <h2><a href="https://github.com/qupath/qupath" target=blank class="three-icons-title" aria-label="follow this link to the qupath github code base">Develop</a></h1>
               <p class="three-icons-text">Check out QuPath's source code & latest changes on <a href="https://github.com/qupath/qupath" target=blank>GitHub</a>
               </p>
           </li>
@@ -179,8 +179,8 @@
       </p>
       <hr>
       </hr>
-      <a href="https://github.com/qupath/qupath" target=blank><i class="fa-brands fa-github fa-2x"></i></a>
-      <a href="https://twitter.com/qupath" target=blank><i class="fa-brands fa-twitter fa-2x"></i></a>
+      <a href="https://github.com/qupath/qupath" target=blank aria-label="follow this link to the qupath github code base"><i class="fa-brands fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/qupath" target=blank aria-label="follow this link to the qupath github twitter account"><i class="fa-brands fa-twitter fa-2x"></i></a>
     </footer>
     <script type="text/javascript" src="/js/slider.js"></script>
 
