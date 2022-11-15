@@ -27,11 +27,12 @@ p {
 
 a:link {
   color: #267CB9;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #324b69;
-  text-decoration: none;
+  color: #267CB9;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -39,8 +40,8 @@ a:visited {
 }
 
 a:visited:hover {
-  color: #727272;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #86c351;
 }
 
 * {
