@@ -269,6 +269,7 @@ img {
 }
 
 /* Which OS download to hide */
+/* Windows */
 html.mac [data-for-os="win"] {
   display: none !important;
 }
@@ -277,6 +278,11 @@ html.lin [data-for-os="win"] {
   display: none !important;
 }
 
+html.default [data-for-os="win"] {
+  display: none !important;
+}
+
+/* Linux */
 html.mac [data-for-os="lin"] {
   display: none !important;
 }
@@ -285,11 +291,33 @@ html.win [data-for-os="lin"] {
   display: none !important;
 }
 
+html.default [data-for-os="lin"] {
+  display: none !important;
+}
+
+/* Mac */
 html.win [data-for-os="mac"] {
   display: none !important;
 }
 
 html.lin [data-for-os="mac"] {
+  display: none !important;
+}
+
+html.default [data-for-os="mac"] {
+  display: none !important;
+}
+
+/* Not sure what platform? */
+html.win [data-for-os="default"] {
+  display: none !important;
+}
+
+html.lin [data-for-os="default"] {
+  display: none !important;
+}
+
+html.mac [data-for-os="default"] {
   display: none !important;
 }
 
