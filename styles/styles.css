@@ -25,6 +25,11 @@ p {
   color: #727272;
 }
 
+#super {
+  vertical-align: super;
+  font-size: 8pt;
+}
+
 a:link {
   color: #267CB9;
   text-decoration: none;
@@ -51,6 +56,9 @@ a:visited:hover {
 hr {
   max-width: 980px;
   width: 50%;
+  background-color: #727272;
+  height: 1px;
+  border: none;
 }
 
 .standard-component {
@@ -144,42 +152,129 @@ img {
 }
 
 /* -------------Download Styling------------- */
-
-.download-container .button {
-  display: inline-block;
-  width: 300px;
-  border-radius: 3px;
-  cursor: pointer;
-  padding: 9px 15px;
-  margin: 10px;
-  line-height: inherit;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16pt;
-  border-radius: 10px;
-  border: 3px solid white;
-  color: #000c;
-  background-color: #d9d9d9;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-}
-
-.download-container .button {
-  background: hsla(49, 100%, 50%, 0.5);
-  transition: background-color 0.5s ease-out 30ms;
-}
-
-.download-container .button:hover {
-  background-color: hsla(49, 100%, 50%, 0.9);
-}
-
 .download-container p {
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
+/*Standard Button styling*/
+/* Button styling default*/
+.download-container .button {
+  display: inline-block;
+  width: 300px;
+  cursor: pointer;
+  padding: 9px 15px;
+  margin: 10px 10px 0px 10px;
+  line-height: inherit;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16pt;
+  border-radius: 10px;
+  color: #000c;
+  background-color: #ffe77f;
+  transition: background-color 0.3s ease-in-out 30ms;
+}
+
+/* Button styling on hover*/
+.download-container .button:hover {
+  background-color: #ffd519;
+}
+
+.dropdown:hover .button {
+  background-color: #ffd519;
+}
+
+/* Split button styling */
+.download-container .button-group {}
+
+.download-container .main-button {
+  display: inline-block;
+  width: 265px;
+  padding-right: 0px;
+  margin-right: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.download-container .side-button {
+  display: inline-block;
+  width: 35px;
+  padding-left: 0;
+  padding-left: 5px;
+  margin-left: 0;
+  margin-left: -5px;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ffe77f;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  height: auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  visibility: none;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 10px;
+  font-size: 12pt;
+  background-color: #fceda8;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 10px;
+  height: auto;
+  -webkit-transition: background-color 0.3s ease-in-out 30ms;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
+/* Dropdown content styling*/
+.dropdown-content a {
+  color: #000c;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  -webkit-transition: background-color 0.3s ease-in-out 30ms;
+}
+
+/* Dropdown content styling on hover*/
+.dropdown-content a:hover {
+  background-color: #ffd519;
+  border-radius: 10px;
+}
+
+.dropdown-content hr {
+  height: 0.5px;
+  width: 80%;
+  border: none;
+  color: #000c;
+  background-color: #000;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+/* Dropdown content show/hide*/
+.dropdown:hover .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
+.download-icon {
+  padding: 2px 8px;
+  margin: 0;
+}
+
 /* Which OS download to hide */
+/* Windows */
 html.mac [data-for-os="win"] {
   display: none !important;
 }
@@ -188,6 +283,11 @@ html.lin [data-for-os="win"] {
   display: none !important;
 }
 
+html.default [data-for-os="win"] {
+  display: none !important;
+}
+
+/* Linux */
 html.mac [data-for-os="lin"] {
   display: none !important;
 }
@@ -196,11 +296,33 @@ html.win [data-for-os="lin"] {
   display: none !important;
 }
 
+html.default [data-for-os="lin"] {
+  display: none !important;
+}
+
+/* Mac */
 html.win [data-for-os="mac"] {
   display: none !important;
 }
 
 html.lin [data-for-os="mac"] {
+  display: none !important;
+}
+
+html.default [data-for-os="mac"] {
+  display: none !important;
+}
+
+/* Not sure what platform? */
+html.win [data-for-os="default"] {
+  display: none !important;
+}
+
+html.lin [data-for-os="default"] {
+  display: none !important;
+}
+
+html.mac [data-for-os="default"] {
   display: none !important;
 }
 
@@ -477,7 +599,7 @@ p.footer-text {
   margin-right: auto;
 }
 
-.fa-brands {
+footer a .fa-brands {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
