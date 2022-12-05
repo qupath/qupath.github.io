@@ -1,8 +1,27 @@
 /* -------------General styling------------- */
+:root {
+  --background-white: white;
+  --off-black: #000c;
+  --dark-grey: #393939;
+  --light-grey: #727272;
+  --link-blue: #267CB9;
+  --link-green: #86c351;
+  --banner-blue: #324b69;
+  --banner-white: aliceblue;
+  --yellow: #ffe77f;
+  --yellow-darken: #ffd519;
+  --yellow-lighten: #fceda8;
+  --blue: hsla(215, 100%, 76%, 0.5);
+  --blue-darken: hsla(215, 100%, 76%, 0.9);
+  --green: hsla(92, 49%, 54%, 0.5);
+  --green-darken: hsla(92, 49%, 54%, 0.9);
+  --red: hsla(13, 100%, 38%, 0.4);
+  --green-darken: hsla(13, 100%, 38%, 0.7);
+}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: white;
+  background: var(--background-white);
   text-align: center;
   margin: 0;
 }
@@ -13,16 +32,13 @@ h1 h2 p li {
   align-self: center;
 }
 
-h1 {
-  color: #393939;
-}
-
+h1,
 h2 {
-  color: #393939;
+  color: var(--dark-grey);
 }
 
 p {
-  color: #727272;
+  color: var(--light-grey);
 }
 
 #super {
@@ -31,22 +47,22 @@ p {
 }
 
 a:link {
-  color: #267CB9;
+  color: var(--link-blue);
   text-decoration: none;
 }
 
 a:hover {
-  color: #267CB9;
+  color: var(--link-blue);
   text-decoration: underline;
 }
 
 a:visited {
-  color: #86c351;
+  color: var(--link-green);
 }
 
 a:visited:hover {
   text-decoration: underline;
-  color: #86c351;
+  color: var(--link-green);
 }
 
 * {
@@ -56,7 +72,7 @@ a:visited:hover {
 hr {
   max-width: 980px;
   width: 50%;
-  background-color: #727272;
+  background-color: var(--light-grey);
   height: 1px;
   border: none;
 }
@@ -76,10 +92,9 @@ hr {
 }
 
 /* -------------News banner styling------------- */
-
 #news-banner {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   left: 0;
   box-sizing: border-box;
@@ -87,7 +102,7 @@ hr {
   min-width: 330px;
   margin-bottom: 50px;
   border-radius: 0px 0px 10px 10px;
-  background-color: #324b69;
+  background-color: var(--banner-blue);
 }
 
 div.news-banner-text {
@@ -98,22 +113,17 @@ div.news-banner-text {
   text-align: center;
 }
 
-div.news-banner-text p {
-  color: aliceblue;
-}
-
-div.news-banner-text a {
-  color: aliceblue;
+div.news-banner-text p,
+div.news-banner-text a,
+div.news-banner-text a:hover,
+.fa-xmark {
+  color: var(--banner-white);
 }
 
 div.news-banner-close {
   position: absolute;
   top: 15px;
   right: 20px;
-}
-
-.fa-xmark {
-  color: aliceblue;
 }
 
 button.close {
@@ -126,7 +136,17 @@ button.close {
 div.news-banner-close:hover {
   text-decoration: none;
   cursor: pointer;
-  color: aliceblue;
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: var(--banner-white);
 }
 
 /* -------------Hero Styling------------- */
@@ -162,7 +182,6 @@ img {
 /* Button styling default*/
 .download-container .button {
   display: inline-block;
-  width: 300px;
   cursor: pointer;
   padding: 9px 15px;
   margin: 10px 10px 0px 10px;
@@ -171,43 +190,36 @@ img {
   text-decoration: none;
   font-size: 16pt;
   border-radius: 10px;
-  color: #000c;
-  background-color: #ffe77f;
+  color: var(--off-black);
+  background-color: var(--yellow);
   transition: background-color 0.3s ease-in-out 30ms;
 }
 
 /* Button styling on hover*/
-.download-container .button:hover {
-  background-color: #ffd519;
-}
-
+.download-container .button:hover,
 .dropdown:hover .button {
-  background-color: #ffd519;
+  background-color: var(--yellow-darken);
 }
 
-/* Split button styling */
-.download-container .button-group {}
-
+/* Split button styling - main button*/
 .download-container .main-button {
-  display: inline-block;
   width: 265px;
   padding-right: 0px;
   margin-right: 0;
   border-radius: 10px 0px 0px 10px;
 }
 
+/* Split button styling - side button*/
 .download-container .side-button {
-  display: inline-block;
   width: 35px;
   padding-left: 0;
   padding-left: 5px;
   margin-left: 0;
   margin-left: -5px;
-  align-items: center;
   border-radius: 0px 10px 10px 0px;
-  background-color: #ffe77f;
 }
 
+/* Dropdown Content (Hidden by Default)*/
 .dropdown {
   position: relative;
   display: inline-block;
@@ -217,7 +229,6 @@ img {
   height: auto;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   visibility: none;
   opacity: 0;
@@ -225,7 +236,7 @@ img {
   position: absolute;
   border-radius: 10px;
   font-size: 12pt;
-  background-color: #fceda8;
+  background-color: var(--yellow-lighten);
   width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -237,7 +248,7 @@ img {
 
 /* Dropdown content styling*/
 .dropdown-content a {
-  color: #000c;
+  color: var(--off-black);
   padding: 6px 16px;
   text-decoration: none;
   display: block;
@@ -247,7 +258,7 @@ img {
 
 /* Dropdown content styling on hover*/
 .dropdown-content a:hover {
-  background-color: #ffd519;
+  background-color: var(--yellow-darken);
   border-radius: 10px;
 }
 
@@ -255,8 +266,8 @@ img {
   height: 0.5px;
   width: 80%;
   border: none;
-  color: #000c;
-  background-color: #000;
+  color: var(--off-black);
+  background-color: var(--off-black);
   margin-top: 1px;
   margin-bottom: 1px;
 }
@@ -386,7 +397,7 @@ html.mac [data-for-os="default"] {
   font-size: 18px;
   user-select: none;
   border-radius: 23px;
-  color: #000c;
+  color: var(--off-black);
   cursor: pointer;
   transition: 0.6s ease;
 }
@@ -533,41 +544,41 @@ ul.feature-icons {
   padding-top: 17px;
   padding-bottom: 10px;
   border-radius: 100px;
-  color: #000c;
-  background: hsla(215, 100%, 76%, 0.5);
+  color: var(--off-black);
+  background: var(--blue);
   transition: background-color 0.5s ease-out 30ms;
 }
 
 .icons-color:hover {
-  background-color: hsla(215, 100%, 76%, 0.9);
+  background-color: var(--blue-darken);
 }
 
 .green-color {
-  background: hsla(92, 49%, 54%, 0.5);
+  background: var(--green);
   transition: background-color 0.5s ease-out 30ms;
 }
 
 .green-color:hover {
-  background-color: hsla(92, 49%, 54%, 0.9);
+  background-color: var(--green-darken);
 }
 
 .red-color {
-  background: hsla(13, 100%, 38%, 0.4);
+  background: var(--red);
   transition: background-color 0.5s ease-out 30ms;
 }
 
 .red-color:hover {
-  background-color: hsla(13, 100%, 38%, 0.7);
+  background-color: var(--red-darken);
 }
 
 .three-icons-title:link {
-  color: #393939;
+  color: var(--dark-grey);
   margin-bottom: 5px;
   text-decoration: none;
 }
 
 .three-icons-title:visited {
-  color: #393939;
+  color: var(--dark-grey);
 }
 
 .three-icons-text {
@@ -576,7 +587,7 @@ ul.feature-icons {
   overflow: auto;
   margin-left: auto;
   margin-right: auto;
-  color: #727272;
+  color: var(--light-grey);
 }
 
 p {
