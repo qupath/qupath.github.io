@@ -278,7 +278,6 @@ img {
 }
 
 .side-button .fa-angle-down {
-  --fa-animation-delay: 1s;
   transition: 0.50s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
