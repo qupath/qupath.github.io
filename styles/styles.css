@@ -277,20 +277,18 @@ img {
   border-radius: 10px;
 }
 
-.side-button i {
+.side-button .fa-angle-down {
+  --fa-animation-delay: 1s;
   transition: 0.50s;
   -webkit-transition: 0.70s;
   -moz-transition: 0.70s;
   -ms-transition: 0.70s;
   -o-transition: 0.70s;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
 }
 
-.side-button:hover i {
+.side-button:hover .fa-angle-down,
+.dropdown:hover .fa-angle-down,
+.dropdown:focus-within .fa-angle-down {
   transition: 0.50s;
   -webkit-transition: 0.50s;
   -moz-transition: 0.50s;
