@@ -16,7 +16,7 @@
   --green: hsla(92, 49%, 54%, 0.5);
   --green-darken: hsla(92, 49%, 54%, 0.9);
   --red: hsla(13, 100%, 38%, 0.4);
-  --green-darken: hsla(13, 100%, 38%, 0.7);
+  --red-darken: hsla(13, 100%, 38%, 0.7);
 }
 
 body {
@@ -275,6 +275,32 @@ img {
 .dropdown-content a:focus-within {
   background-color: var(--yellow-darken);
   border-radius: 10px;
+}
+
+.side-button i {
+  transition: 0.50s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.side-button:hover i {
+  transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .dropdown-content hr {
