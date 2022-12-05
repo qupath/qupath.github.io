@@ -1,204 +1,227 @@
 <!DOCTYPE html>
 <html>
-  <html lang="en">
+<html lang="en">
 
-    <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="description"
-        content="QuPath is cross-platform, user-friendly open source software for digital pathology and whole slide image analysis, written using JavaFX.  QuPath has also been designed to be developer-friendly, and combines an extensible design with powerful scripting tools." />
-      <title>QuPath</title>
-      <meta property="og:image" content="/images/favicon.ico">
-      <meta property="og:image:type" content="image/png">
-      <meta property="og:image:width" content="1024">
-      <meta property="og:image:height" content="1024">
-      <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-      <link rel="stylesheet" href="/styles/styles.css" />
-      <script src="https://kit.fontawesome.com/28339e59e3.js" crossorigin="anonymous" type="text/javascript"
-        src="/js/slider.js"></script>
-      <script src="/js/os.js" charset="utf-8"></script>
-      <script
-        defer
-        data-domain="qupath.github.io"
-        src="https://plausible.io/js/plausible.js"
-      ></script>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="QuPath is cross-platform, user-friendly open source software for digital pathology and whole slide image analysis, written using JavaFX.  QuPath has also been designed to be developer-friendly, and combines an extensible design with powerful scripting tools." />
+  <title>QuPath</title>
+  <meta property="og:image" content="/images/favicon.ico">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="1024">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <script src="https://kit.fontawesome.com/28339e59e3.js" crossorigin="anonymous" type="text/javascript"
+    src="/js/slider.js"></script>
+  <script src="/js/os.js" charset="utf-8"></script>
+  <script defer data-domain="qupath.github.io" src="https://plausible.io/js/plausible.js"></script>
+</head>
 
-    <body>
-      <!-- Banner container -->
-      <div id="news-banner">
-        <div class="news-banner-text">
-          <p>
-            QuPath 0.4.0 is here! Visit<a href="https://github.com/qupath/qupath/releases/" target=blank> releases</a> for more information
-          </p>
-        </div>
-        <!-- close button -->
-        <div class="news-banner-close">
-          <button class="close" aria-label="Close banner" type="button" data-close
-            onclick="document.getElementById('news-banner').style.display='none';">
-            <span aria-hidden="true"><i class=" close fa-solid fa-xmark fa-2xl"></i></span>
-          </button>
-        </div>
-      </div>
-      <!-- Hero container -->
-      <header>
-        <div id="hero" class="standard-component">
-          <img src="/images/qupath-hero.png" alt="QuPath Users" />
-          <h1>QuPath</h1>
-          <h2>Open Software for Bioimage Analysis</h2>
-        </div>
-      </header>
-      <!-- Downloads container -->
-      <div id="downloads" class="standard-component">
-        <div class="download-container">
-          <div class="button-group">
-            <a class="button windows-button main-button"
-              data-for-os="default"
-              data-download="win">Download QuPath</a>
-            <a class="button windows-button main-button"
-              href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Windows.msi" data-for-os="win"
-              data-download="win" aria-label="follow this link to download qupath for windows m s i 229 M B">Download for Windows</a>
-            <a class="button mac-button main-button"
-              href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Mac.pkg" data-for-os="mac"
-              data-download="mac" aria-label="follow this link to download qupath for macOS p k g 220 M B">Download for macOS</a>
-            <a class="button linux-button main-button" 
-              href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Linux.tar.xz" data-for-os="lin"
-              data-download="lin" aria-label="follow this link to download qupath for Linux t a r 213 M B">Download for Linux</a>  
-              <div class="dropdown">
-              <div class="button windows-button side-button"><i class="fa-solid fa-angle-down"></i></div>
-              <div class="dropdown-content">
-                <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Windows.msi" aria-label="follow this link to download qupath for windows m s i 229 M B"><i class="fa-brands fa-windows download-icon"></i>Windows installer (msi)</a>
-                <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Windows.zip" aria-label="follow this link to download qupath for windows m s i 228 Z I P"><i class="fa-brands fa-windows download-icon"></i>Windows portable (zip)</a>
-                <hr>
-                <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Mac.pkg" aria-label="follow this link to download qupath for macOS p k g 220 M B"><i class="fa-brands fa-apple download-icon"></i>macOS Intel (pkg)</a>
-                <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Mac-arm64.pkg" aria-label="follow this link to download qupath for macOS p k g 189 M B"><i class="fa-brands fa-apple download-icon"></i>macOS Apple silicon (pkg) <span id="super">beta</span></a>
-                <hr>
-                <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Linux.tar.xz" aria-label="follow this link to download qupath for Linux t a r 213 M B"><i class="fa-brands fa-linux download-icon"></i>Linux (tar.xz)</a>
-              </div>
-            </div>
-          </div>
-          <p>Looking for another version? Find <a href="https://github.com/qupath/qupath/releases/" target=blank>all releases</a>
-          </p>
-          <p>Trouble installing? Check out the <a
-              href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>installation notes</a></p>
-        </div>
-      </div>
-      <!-- Slideshow container -->
-      <div class="slideshow-container standard-component">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="slide">
-            <div class="slide-text">
-              <h2>Get started</h2>
-              <p>
-                See how QuPath can help visualize & analyze complex images with our step-by-step guides on <a href="https://qupath.readthedocs.io/en/0.3/" target=blank>ReadTheDocs</a>.
-              </p>
-            </div>
-            <img src="/images/slideshow/qupath-getting-started.png" class="screenshot-img" alt="">
-          </div>
-          <!-- <div class="text">Slide 1</div> -->
-        </div>
-        <div class="mySlides fade">
-          <div class="slide">
-            <div class="slide-text inverse-text">
-              <h2>Learn more</h2>
-              <p>
-                Dive deeper into what QuPath can do by checking out the tutorials & workshops on <a href="https://www.youtube.com/c/qupath" target=blank>YouTube</a>.
-              </p>
-            </div>
-            <img src="/images/slideshow/qupath-youtube.png" class="inverse screenshot-img" alt="">
-          </div>
-          <!-- <div class="text">Slide 2</div> -->
-        </div>
-        <div class="mySlides fade">
-          <div class="slide">
-            <div class="slide-text">
-              <h2>Annotate faster</h2>
-              <p>
-                QuPath has lots of tricks to annotate images quickly. See them in action in this <a href="https://twitter.com/petebankhead/status/1295965136646176768?s=20&t=ETG2R8JKrhtT-kSZdW-Cnw" target=blank>annotation tweetorial</a>.
-              </p>
-            </div>
-            <img src="/images/slideshow/annotation-snapping.jpg" class="screenshot-img" alt="">
-          </div>
-          <!-- <div class="text">Slide 3</div> -->
-        </div>
-        <div class="mySlides fade">
-          <div class="slide">
-            <div class="slide-text inverse-text">
-              <h2>Understand images</h2>
-              <p>
-                Learn the core ideas behind analyzing images from QuPath’s creator, in the new interactive handbook <a href="https://bioimagebook.github.io/README.html" target=blank>Introduction to Bioimage Analysis</a>.
-              </p>
-            </div>
-            <img src="/images/slideshow/pete-teaching.png" class="inverse center-img" alt="">
-          </div>
-        </div>
-        <!-- <div class="text">Slide 4</div> -->
-        <div class="mySlides fade">
-          <div class="slide">
-            <div class="slide-text">
-              <h2>Latest release</h2>
-              <p>
-                QuPath 0.4.0 is here! <br> Check out <a href="https://github.com/qupath/qupath/releases/" target=blank>releases</a> to find out more.
-              </p>
-            </div>
-            <img src="/images/slideshow/qupath-jobs.png" class="center-img" alt="">
-          </div>
-        </div>
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)" tabindex= "0" aria-label="Slide 1"></span>
-        <span class="dot" onclick="currentSlide(2)" tabindex= "0" aria-label="Slide 2"></span>
-        <span class="dot" onclick="currentSlide(3)" tabindex= "0" aria-label="Slide 3"></span>
-        <span class="dot" onclick="currentSlide(4)" tabindex= "0" aria-label="Slide 4"></span>
-        <span class="dot" onclick="currentSlide(5)" tabindex= "0" aria-label="Slide 5"></span>
-      </div>
-      <!-- Three Icons container -->
-      <div id="three-icons" class="standard-component">
-        <ul class="feature-icons">
-          <li>
-            <a href="https://qupath.readthedocs.io/en/stable/" target=blank tabindex= "-1"><i
-                class="fa-regular fa-file-lines fa-5x icons-color green-color"></i></a>
-            <h2><a href="https://qupath.readthedocs.io/en/stable/" target=blank class="three-icons-title" aria-label="follow this link to learn more about qupath">Docs</a></h1>
-              <p class="three-icons-text">Find QuPath step-by-step guides, video tutorials and more on <a href="https://qupath.readthedocs.io/en/stable/" target=blank>ReadTheDocs</a>
-              </p>
-          </li>
-          <li>
-            <a href="https://forum.image.sc/tag/qupath" target=blank tabindex= "-1"><i
-                class="fa-regular fa-comments fa-5x icons-color"></i></a>
-            <h2><a href="https://forum.image.sc/tag/qupath" target=blank class="three-icons-title" aria-label="follow this link to access discussons on the image.sc forum">Discuss</a></h1>
-              <p class="three-icons-text">Join other QuPath users and search thousands of discussions on <a href="https://forum.image.sc/tag/qupath" target=blank>image.sc</a></p>
-          </li>
-          <li>
-            <a href="https://github.com/qupath/qupath" target=blank tabindex= "-1"><i
-                class="fa-solid fa-code fa-5x icons-color red-color"></i></a>
-            <h2><a href="https://github.com/qupath/qupath" target=blank class="three-icons-title" aria-label="follow this link to the qupath github code base">Develop</a></h1>
-              <p class="three-icons-text">Check out QuPath's source code & latest changes on <a href="https://github.com/qupath/qupath" target=blank>GitHub</a>
-              </p>
-          </li>
-        </ul>
-      </div>
-    </body>
-    <footer>
-      <p class="footer-text">To reference QuPath in scientific publications, see <a
-          href="https://qupath.readthedocs.io/en/stable/docs/intro/citing.html" target="_blank">'How to cite QuPath'</a>
-      <p class="footer-text">QuPath is open source software, licensed under the <a
-          href="https://github.com/qupath/qupath/blob/main/LICENSE.txt" target="_blank">GNU General Public
-          License</a>
+<body>
+  <!-- Banner container -->
+  <div id="news-banner">
+    <div class="news-banner-text">
+      <p>
+        QuPath 0.4.0 is here! Visit <a href="https://github.com/qupath/qupath/releases/" target=blank>releases</a> for
+        more information
       </p>
-      <hr>
-      </hr>
-      <a href="https://github.com/qupath/qupath" target=blank aria-label="follow this link to the qupath github code base"><i class="fa-brands fa-github fa-2x"></i></a>
-      <a href="https://twitter.com/qupath" target=blank aria-label="follow this link to the qupath github twitter account"><i class="fa-brands fa-twitter fa-2x"></i></a>
-    </footer>
-    <script type="text/javascript" src="/js/slider.js"></script>
+    </div>
+    <!-- close button -->
+    <div class="news-banner-close">
+      <button class="close" aria-label="Close banner" type="button" data-close
+        onclick="document.getElementById('news-banner').style.display='none';">
+        <span aria-hidden="true"><i class=" close fa-solid fa-xmark fa-2xl"></i></span>
+      </button>
+    </div>
+  </div>
+  <!-- Hero container -->
+  <header>
+    <div id="hero" class="standard-component">
+      <img src="/images/qupath-hero.png" alt="QuPath Users" />
+      <h1>QuPath</h1>
+      <h2>Open Software for Bioimage Analysis</h2>
+    </div>
+  </header>
+  <!-- Downloads container -->
+  <div id="downloads" class="standard-component">
+    <div class="download-container">
+      <a class="button windows-button main-button" data-for-os="default" data-download="win" tabindex=“-1”>Download
+        QuPath</a>
+      <button class="button windows-button main-button"
+        href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Windows.msi" data-for-os="win"
+        data-download="win" tabindex=“0”
+        aria-label="follow this link to download qupath for windows m s i 229 M B">Download for Windows</button>
+      <button class="button mac-button main-button"
+        href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Mac.pkg" data-for-os="mac"
+        data-download="mac" tabindex=“0”
+        aria-label="follow this link to download qupath for macOS p k g 220 M B">Download for macOS</button>
+      <button class="button linux-button main-button"
+        href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Linux.tar.xz" data-for-os="lin"
+        data-download="lin" tabindex=“0”
+        aria-label="follow this link to download qupath for Linux t a r 213 M B">Download for Linux</button>
+      <div class="dropdown" tabindex=“-1”>
+        <button class="button windows-button side-button" tabindex=“0” aria-label="Submenu to download alternative releases"><i class="fa-solid fa-angle-down"></i></button>
+        <div class="dropdown-content">
+          <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Windows.msi" tabindex=“0”
+            aria-label="follow this link to download qupath for windows m s i 229 M B"><i
+              class="fa-brands fa-windows download-icon" ></i>Windows installer (msi)</a>
+          <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Windows.zip" tabindex=“0”
+            aria-label="follow this link to download qupath for windows m s i 228 Z I P"><i
+              class="fa-brands fa-windows download-icon"></i>Windows portable (zip)</a>
+          <hr>
+          <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Mac.pkg" tabindex=“0”
+            aria-label="follow this link to download qupath for macOS p k g 220 M B"><i
+              class="fa-brands fa-apple download-icon"></i>macOS Intel (pkg)</a>
+          <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Mac-arm64.pkg" tabindex=“0”
+            aria-label="follow this link to download qupath for macOS p k g 189 M B"><i
+              class="fa-brands fa-apple download-icon"></i>macOS Apple silicon (pkg) <span id="super">beta</span></a>
+          <hr>
+          <a href="https://github.com/qupath/qupath/releases/download/v0.4.0/QuPath-0.4.0-Linux.tar.xz" tabindex=“0”
+            aria-label="follow this link to download qupath for Linux t a r 213 M B"><i
+              class="fa-brands fa-linux download-icon"></i>Linux (tar.xz)</a>
+        </div>
+      </div>
+      <p>Looking for another version? Find <a href="https://github.com/qupath/qupath/releases/" target=blank>all
+          releases</a>
+      </p>
+      <p>Trouble installing? Check out the <a
+          href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>installation
+          notes</a></p>
+    </div>
+  </div>
+  <!-- Slideshow container -->
+  <div class="slideshow-container standard-component">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="slide">
+        <div class="slide-text">
+          <h2>Get started</h2>
+          <p>
+            See how QuPath can help visualize & analyze complex images with our step-by-step guides on <a
+              href="https://qupath.readthedocs.io/en/0.3/" target=blank>ReadTheDocs</a>.
+          </p>
+        </div>
+        <img src="/images/slideshow/qupath-getting-started.png" class="screenshot-img" alt="">
+      </div>
+      <!-- <div class="text">Slide 1</div> -->
+    </div>
+    <div class="mySlides fade">
+      <div class="slide">
+        <div class="slide-text inverse-text">
+          <h2>Learn more</h2>
+          <p>
+            Dive deeper into what QuPath can do by checking out the tutorials & workshops on <a
+              href="https://www.youtube.com/c/qupath" target=blank>YouTube</a>.
+          </p>
+        </div>
+        <img src="/images/slideshow/qupath-youtube.png" class="inverse screenshot-img" alt="">
+      </div>
+      <!-- <div class="text">Slide 2</div> -->
+    </div>
+    <div class="mySlides fade">
+      <div class="slide">
+        <div class="slide-text">
+          <h2>Annotate faster</h2>
+          <p>
+            QuPath has lots of tricks to annotate images quickly. See them in action in this <a
+              href="https://twitter.com/petebankhead/status/1295965136646176768?s=20&t=ETG2R8JKrhtT-kSZdW-Cnw"
+              target=blank>annotation tweetorial</a>.
+          </p>
+        </div>
+        <img src="/images/slideshow/annotation-snapping.jpg" class="screenshot-img" alt="">
+      </div>
+      <!-- <div class="text">Slide 3</div> -->
+    </div>
+    <div class="mySlides fade">
+      <div class="slide">
+        <div class="slide-text inverse-text">
+          <h2>Understand images</h2>
+          <p>
+            Learn the core ideas behind analyzing images from QuPath’s creator, in the new interactive handbook <a
+              href="https://bioimagebook.github.io/README.html" target=blank>Introduction to Bioimage Analysis</a>.
+          </p>
+        </div>
+        <img src="/images/slideshow/pete-teaching.png" class="inverse center-img" alt="">
+      </div>
+    </div>
+    <!-- <div class="text">Slide 4</div> -->
+    <div class="mySlides fade">
+      <div class="slide">
+        <div class="slide-text">
+          <h2>Latest release</h2>
+          <p>
+            QuPath 0.4.0 is here! <br> Check out <a href="https://github.com/qupath/qupath/releases/"
+              target=blank>releases</a> to find out more.
+          </p>
+        </div>
+        <img src="/images/slideshow/qupath-jobs.png" class="center-img" alt="">
+      </div>
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-angle-left"></i></a>
+    <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-angle-right"></i></a>
+  </div>
+  <br>
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)" tabindex="0" aria-label="Slide 1"></span>
+    <span class="dot" onclick="currentSlide(2)" tabindex="0" aria-label="Slide 2"></span>
+    <span class="dot" onclick="currentSlide(3)" tabindex="0" aria-label="Slide 3"></span>
+    <span class="dot" onclick="currentSlide(4)" tabindex="0" aria-label="Slide 4"></span>
+    <span class="dot" onclick="currentSlide(5)" tabindex="0" aria-label="Slide 5"></span>
+  </div>
+  <!-- Three Icons container -->
+  <div id="three-icons" class="standard-component">
+    <ul class="feature-icons">
+      <li>
+        <a href="https://qupath.readthedocs.io/en/stable/" target=blank tabindex="-1"><i
+            class="fa-regular fa-file-lines fa-5x icons-color green-color"></i></a>
+        <h2><a href="https://qupath.readthedocs.io/en/stable/" target=blank class="three-icons-title"
+            aria-label="follow this link to learn more about qupath">Docs</a></h1>
+          <p class="three-icons-text">Find QuPath step-by-step guides, video tutorials and more on <a
+              href="https://qupath.readthedocs.io/en/stable/" target=blank>ReadTheDocs</a>
+          </p>
+      </li>
+      <li>
+        <a href="https://forum.image.sc/tag/qupath" target=blank tabindex="-1"><i
+            class="fa-regular fa-comments fa-5x icons-color"></i></a>
+        <h2><a href="https://forum.image.sc/tag/qupath" target=blank class="three-icons-title"
+            aria-label="follow this link to access discussons on the image.sc forum">Discuss</a></h1>
+          <p class="three-icons-text">Join other QuPath users and search thousands of discussions on <a
+              href="https://forum.image.sc/tag/qupath" target=blank>image.sc</a></p>
+      </li>
+      <li>
+        <a href="https://github.com/qupath/qupath" target=blank tabindex="-1"><i
+            class="fa-solid fa-code fa-5x icons-color red-color"></i></a>
+        <h2><a href="https://github.com/qupath/qupath" target=blank class="three-icons-title"
+            aria-label="follow this link to the qupath github code base">Develop</a></h1>
+          <p class="three-icons-text">Check out QuPath's source code & latest changes on <a
+              href="https://github.com/qupath/qupath" target=blank>GitHub</a>
+          </p>
+      </li>
+    </ul>
+  </div>
+</body>
+<footer>
+  <p class="footer-text">To reference QuPath in scientific publications, see <a
+      href="https://qupath.readthedocs.io/en/stable/docs/intro/citing.html" target="_blank">'How to cite QuPath'</a>
+  <p class="footer-text">QuPath is open source software, licensed under the <a
+      href="https://github.com/qupath/qupath/blob/main/LICENSE.txt" target="_blank">GNU General Public
+      License</a>
+  </p>
+  <hr>
+  </hr>
+  <a href="https://github.com/qupath/qupath" target=blank
+    aria-label="follow this link to the qupath github code base"><i class="fa-brands fa-github fa-2x"></i></a>
+  <a href="https://twitter.com/qupath" target=blank
+    aria-label="follow this link to the qupath github twitter account"><i class="fa-brands fa-twitter fa-2x"></i></a>
+</footer>
+<script type="text/javascript" src="/js/slider.js"></script>
 
-  </html>
+</html>
 
 </html>
