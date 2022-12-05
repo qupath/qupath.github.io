@@ -211,6 +211,7 @@ img {
   padding-right: 0px;
   margin-right: 0;
   border-radius: 10px 0px 0px 10px;
+  border: none;
 }
 
 /* Split button styling - side button*/
@@ -221,6 +222,7 @@ img {
   margin-left: 0;
   margin-left: -5px;
   border-radius: 0px 10px 10px 0px;
+  border: none;
 }
 
 /* Dropdown Content (Hidden by Default)*/
@@ -250,6 +252,14 @@ img {
   transition: opacity 0.3s ease-in-out 0.3s;
 }
 
+/* Dropdown content show/hide*/
+.dropdown:hover .dropdown-content,
+.dropdown:focus-within .dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
 /* Dropdown content styling*/
 .dropdown-content a {
   color: var(--off-black);
@@ -262,7 +272,7 @@ img {
 
 /* Dropdown content styling on hover*/
 .dropdown-content a:hover,
-.dropdown-content a:focus {
+.dropdown-content a:focus-within {
   background-color: var(--yellow-darken);
   border-radius: 10px;
 }
@@ -275,13 +285,6 @@ img {
   background-color: var(--off-black);
   margin-top: 1px;
   margin-bottom: 1px;
-}
-
-/* Dropdown content show/hide*/
-.dropdown:hover .dropdown-content {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out 0.3s;
 }
 
 .download-icon {
