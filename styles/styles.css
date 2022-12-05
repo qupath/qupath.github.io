@@ -278,11 +278,11 @@ img {
 }
 
 .side-button .fa-angle-down {
-  transition: 0.50s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: transform .7s;
+  -webkit-transition: transform .7s;
+  -moz-transition: transform .7s;
+  -ms-transition: transform .7s;
+  -o-transition: transform .7s;
 }
 
 .side-button:hover .fa-angle-down,
