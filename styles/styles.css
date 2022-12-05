@@ -230,7 +230,7 @@ img {
 }
 
 .dropdown-content {
-  visibility: none;
+  visibility: hidden;
   opacity: 0;
   overflow: hidden;
   position: absolute;
