@@ -413,6 +413,7 @@ html.mac [data-for-os="default"] {
 .prev:hover,
 .next:hover {
   background-color: hsla(216, 90%, 77%, 0.5);
+  text-decoration: none;
 }
 
 .dot {
