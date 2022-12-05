@@ -69,6 +69,10 @@ a:visited:hover {
   box-sizing: border-box;
 }
 
+/* div[tabindex="0"]:focus {
+  outline: 4px dashed orange;
+} */
+
 hr {
   max-width: 980px;
   width: 50%;
@@ -257,7 +261,8 @@ img {
 }
 
 /* Dropdown content styling on hover*/
-.dropdown-content a:hover {
+.dropdown-content a:hover,
+.dropdown-content a:focus {
   background-color: var(--yellow-darken);
   border-radius: 10px;
 }
