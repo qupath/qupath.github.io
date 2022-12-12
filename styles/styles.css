@@ -275,6 +275,7 @@ img {
 .dropdown-content a:focus-within {
   background-color: var(--yellow-darken);
   border-radius: 10px;
+  color: var(--off-black);
 }
 
 .side-button .fa-angle-right {
