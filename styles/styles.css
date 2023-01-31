@@ -4,7 +4,7 @@
   --off-black: #000c;
   --dark-grey: #393939;
   --light-grey: #727272;
-  --link-blue: #267CB9;
+  --link-blue: #267cb9;
   --link-green: #86c351;
   --banner-blue: #324b69;
   --banner-white: aliceblue;
@@ -140,11 +140,11 @@ button.close {
 div.news-banner-close:hover {
   text-decoration: none;
   cursor: pointer;
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
@@ -185,6 +185,8 @@ img {
 /*Standard Button styling*/
 /* Button styling default*/
 .download-container .button {
+  vertical-align: top;
+  height: 45px;
   display: inline-block;
   cursor: pointer;
   padding: 9px 15px;
@@ -279,21 +281,21 @@ img {
 }
 
 .side-button .fa-angle-right {
-  transition: transform .7s;
-  -webkit-transition: transform .7s;
-  -moz-transition: transform .7s;
-  -ms-transition: transform .7s;
-  -o-transition: transform .7s;
+  transition: transform 0.7s;
+  -webkit-transition: transform 0.7s;
+  -moz-transition: transform 0.7s;
+  -ms-transition: transform 0.7s;
+  -o-transition: transform 0.7s;
 }
 
 .side-button:hover .fa-angle-right,
 .dropdown:hover .fa-angle-right,
 .dropdown:focus-within .fa-angle-right {
-  transition: 0.50s;
-  -webkit-transition: 0.50s;
-  -moz-transition: 0.50s;
-  -ms-transition: 0.50s;
-  -o-transition: 0.50s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
