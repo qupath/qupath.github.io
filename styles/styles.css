@@ -33,8 +33,11 @@ h1 h2 p li {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: var(--dark-grey);
+  margin-block-start: 10px;
+  margin-block-end: 10px;
 }
 
 p {
@@ -612,7 +615,12 @@ ul.feature-icons {
   text-decoration: none;
 }
 
-.three-icons-title:visited {
+.three-icons-title:hover {
+  text-decoration: underline;
+}
+
+.three-icons-title:visited,
+.three-icons-title:visited:hover {
   color: var(--dark-grey);
 }
 
