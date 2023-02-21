@@ -44,6 +44,10 @@ p {
   color: var(--light-grey);
 }
 
+.bold {
+  font-weight: bold;
+}
+
 #super {
   vertical-align: super;
   font-size: 8pt;
