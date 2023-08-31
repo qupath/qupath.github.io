@@ -3,6 +3,7 @@
 qupath_github: https://github.com/qupath/qupath
 qupath_java_docs: https://qupath.github.io/javadoc/docs/
 qupath_releases: https://github.com/qupath/qupath/releases/
+qupath_release_notes: https://github.com/qupath/qupath/releases/tag/v0.4.3
 qupath_release_latest: https://github.com/qupath/qupath/releases/latest
 qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Windows.msi
 qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Windows.zip
