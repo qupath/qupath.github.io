@@ -7,7 +7,7 @@ qupath_release_latest: https://github.com/qupath/qupath/releases/latest
 qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Windows.msi
 qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Windows.zip
 qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Mac.pkg
-qupath_download_pkgs: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Mac-arm64.pkg
+qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Mac-arm64.pkg
 qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Linux.tar.xz
 qupath_documentation: https://qupath.readthedocs.io/en/stable/
 qupath_installation: https://qupath.readthedocs.io/en/stable/docs/intro/installation.html
