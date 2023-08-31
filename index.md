@@ -47,8 +47,8 @@ download_dropdown_tar: Linux (tar.xz)
 
 download_dropdown_msi_aria: follow this link to download qupath for windows m s i 229 M B
 download_dropdown_zip_aria: follow this link to download qupath for windows Z I P 228 M B
-download_dropdown_pkg_aria: follow this link to download qupath for macOS p k g 220 M B
-download_dropdown_pkgs_aria: follow this link to download qupath for macOS p k g 189 M B
+download_dropdown_pkg_aria: follow this link to download qupath for macOS intel p k g 220 M B
+download_dropdown_pkg_s_aria: follow this link to download qupath for macOS apple silicon p k g 189 M B
 download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 213 M B
 
 latest_release_notes: Release notes v0.4.3
