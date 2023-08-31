@@ -18,7 +18,6 @@ qupath_forum: https://forum.image.sc/tag/qupath
 qupath_twitter: https://twitter.com/qupath
 qupath_youtube: https://www.youtube.com/c/qupath
 
-
 #-------------Page Content-------------
 #Metadata
 layout: landing

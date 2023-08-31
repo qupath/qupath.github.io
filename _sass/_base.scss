@@ -451,8 +451,11 @@
     user-select: none;
     border-radius: 23px;
     color: var(--off-black);
+    background-color: white;
     cursor: pointer;
     transition: 0.6s ease;
+    outline: inherit;
+    border: none;
   }
   
   .next {
