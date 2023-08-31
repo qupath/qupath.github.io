@@ -5,13 +5,13 @@ This is hosted by [Github Pages](https://pages.github.com/) and uses [Jekyll](ht
 
 ## Running
 
-To run locally requirements and set up can be found [here](https://jekyllrb.com/docs/). Once complete, navigate to the page folder in the command line and run the following:
+To run locally, requirements and set up can be found [here](https://jekyllrb.com/docs/). Once complete, navigate to the page folder in the command line and run the following:
 
 1. `bundle install`
 2. `bundle update`
 3. `bundle exec jekyll serve --watch`
 
-Following this open your browser and navigate to the locally hosted link provided by your command line.
+Following this use your browser to navigate to the locally hosted link provided by your command line.
 
 If you already have ruby installed with specific versions that you would like to keep, check out [rbenv](https://github.com/rbenv/rbenv) or [Ruby Version Manager](https://rvm.io/) to handle this.
 
