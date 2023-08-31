@@ -26,7 +26,7 @@ description: QuPath is cross-platform, user-friendly open source software for di
 logo: assets/images/favicon.ico
 
 #Banner
-banner: QuPath version 0.4.3 is now available!
+banner: QuPath v0.4.3 is now available!
 
 #Hero content
 hero-heading: QuPath
@@ -36,7 +36,7 @@ hero-subheading: Open Software for Bioimage Analysis
 #See global links for download links
 download_button_default: Download QuPath
 download_button_win: Download for Windows
-download_button_mac: Download for Mac
+download_button_mac: Download for macOS
 download_button_lin: Download for Linux
 
 download_dropdown_msi: Windows installer (msi)
