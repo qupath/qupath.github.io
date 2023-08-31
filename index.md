@@ -42,7 +42,7 @@ download_button_lin: Download for Linux
 download_dropdown_msi: Windows installer (msi)
 download_dropdown_zip: Windows portable (zip)
 download_dropdown_pkg: macOS Intel (pkg)
-download_dropdown_pkgs: macOS Apple silicon (pkg)
+download_dropdown_pkg_s: macOS Apple silicon (pkg)
 download_dropdown_tar: Linux (tar.xz)
 
 download_dropdown_msi_aria: follow this link to download qupath for windows m s i 229 M B
