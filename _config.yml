@@ -2,24 +2,6 @@
 url: "qupath.github.io"
 permalink: pretty
 
-# Page default meta data
-title: QuPath
-description: QuPath is cross-platform, user-friendly open source software for digital pathology and whole slide image analysis, written using JavaFX.  QuPath has also been designed to be developer-friendly, and combines an extensible design with powerful scripting tools.
-logo: assets/images/favicon.ico
-
-# Global variables and links
-qupath_github: https://github.com/qupath/qupath
-qupath_java_docs: https://qupath.github.io/javadoc/docs/
-qupath_releases: https://github.com/qupath/qupath/releases/
-qupath_release_latest: https://github.com/qupath/qupath/releases/latest
-qupath_documentation: https://qupath.readthedocs.io/en/stable/
-qupath_installation: https://qupath.readthedocs.io/en/stable/docs/intro/installation.html
-qupath_citation: https://qupath.readthedocs.io/en/stable/docs/intro/citing.html
-qupath_license: https://github.com/qupath/qupath/blob/main/LICENSE
-qupath_forum: https://forum.image.sc/tag/qupath
-qupath_twitter: https://twitter.com/qupath
-qupath_youtube: https://www.youtube.com/c/qupath
-
 # Not currently required
 repository: qupath/qupath.github.io
 
