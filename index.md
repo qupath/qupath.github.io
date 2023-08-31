@@ -61,7 +61,7 @@ icon-1-content: Find QuPath step-by-step guides, video tutorials and more on <a 
 icon-1-aria: follow this link to learn more about qupath
 icon-2-title: Discuss
 icon-2-content: Join other QuPath users and search thousands of discussions on <a href="https://forum.image.sc/tag/qupath" target=blank>image.sc</a>
-icon-2-aria: follow this link to access discussons on the image.sc forum
+icon-2-aria: follow this link to access discussions on the image.sc forum
 icon-3-title: Develop
 icon-3-content: Check out QuPath's source code on <a href="https://github.com/qupath/qupath" target=blank>GitHub</a> or view the <a href="https://qupath.readthedocs.io/en/stable/" target=blank>Javadocs</a>
 icon-3-aria: follow this link to the qupath github code base
