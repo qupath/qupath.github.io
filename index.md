@@ -3,13 +3,13 @@
 qupath_github: https://github.com/qupath/qupath
 qupath_java_docs: https://qupath.github.io/javadoc/docs/
 qupath_releases: https://github.com/qupath/qupath/releases/
-qupath_release_notes: https://github.com/qupath/qupath/releases/tag/v0.4.3
+qupath_release_notes: https://github.com/qupath/qupath/releases/tag/v0.4.4
 qupath_release_latest: https://github.com/qupath/qupath/releases/latest
-qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Windows.msi
-qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Windows.zip
-qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Mac.pkg
-qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Mac-arm64.pkg
-qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.4.3/QuPath-0.4.3-Linux.tar.xz
+qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.4.4/QuPath-0.4.4-Windows.msi
+qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.4.4/QuPath-0.4.4-Windows.zip
+qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.4.4/QuPath-0.4.4-Mac.pkg
+qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.4.4/QuPath-0.4.4-Mac-arm64.pkg
+qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.4.4/QuPath-0.4.4-Linux.tar.xz
 qupath_documentation: https://qupath.readthedocs.io/en/stable/
 qupath_installation: https://qupath.readthedocs.io/en/stable/docs/intro/installation.html
 qupath_citation: https://qupath.readthedocs.io/en/stable/docs/intro/citing.html
@@ -26,7 +26,7 @@ description: QuPath is cross-platform, user-friendly open source software for di
 logo: assets/images/favicon.ico
 
 #Banner
-banner: QuPath v0.4.3 is now available!
+banner: QuPath v0.4.4 is now available!
 
 #Hero content
 hero-heading: QuPath
@@ -46,14 +46,14 @@ download_dropdown_pkg_s: macOS Apple silicon (pkg)
 download_dropdown_tar: Linux (tar.xz)
 
 download_dropdown_aria: Submenu to download alternative releases
-download_dropdown_msi_aria: follow this link to download qupath for windows m s i 229 M B
-download_dropdown_zip_aria: follow this link to download qupath for windows Z I P 228 M B
-download_dropdown_pkg_aria: follow this link to download qupath for macOS intel p k g 220 M B
-download_dropdown_pkg_s_aria: follow this link to download qupath for macOS apple silicon p k g 189 M B
-download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 213 M B
+download_dropdown_msi_aria: follow this link to download qupath for windows m s i 224 M B
+download_dropdown_zip_aria: follow this link to download qupath for windows Z I P 223 M B
+download_dropdown_pkg_aria: follow this link to download qupath for macOS intel p k g 216 M B
+download_dropdown_pkg_s_aria: follow this link to download qupath for macOS apple silicon p k g 185 M B
+download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 209 M B
 
-latest_release_notes: Release notes v0.4.3
-all_release_notes: Looking for another version? Find <a href="https://github.com/qupath/qupath/releases/latest" target=blank>all releases</a>
+latest_release_notes: Release notes v0.4.4
+all_release_notes: Looking for another version? Find <a href="https://github.com/qupath/qupath/releases" target=blank>all releases</a>
 install_troubleshooting: Trouble installing? Check out the <a href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>installation notes</a>
 
 #Three Icons content
