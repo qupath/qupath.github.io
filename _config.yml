@@ -1,0 +1,11 @@
+# Page settings
+url: "qupath.github.io"
+permalink: pretty
+
+# Not currently required
+repository: qupath/qupath.github.io
+
+#Slide Collection
+collections:
+  slides:
+    _hide_content: true
