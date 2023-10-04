@@ -1,14 +1,5 @@
 // Basic styles for the landing page
-// .landing-page {
-//     background-color: blue;
-//     color: green;
-//     padding: 2rem;
-//     text-align: center;
-// }
 
-// .content {
-//     padding: 2rem;
-// }
 /* -------------General styling------------- */
 :root {
     --background-white: white;
@@ -87,10 +78,6 @@
     box-sizing: border-box;
   }
   
-  /* div[tabindex="0"]:focus {
-    outline: 4px dashed orange;
-  } */
-  
   hr {
     max-width: 980px;
     width: 50%;
@@ -144,7 +131,7 @@
   
   div.news-banner-close {
     position: absolute;
-    top: 15px;
+    top: 10px;
     right: 20px;
   }
   
@@ -155,9 +142,10 @@
     background-color: transparent;
   }
   
-  div.news-banner-close:hover {
+  .fa-xmark:hover {
     text-decoration: none;
     cursor: pointer;
+    -o-transition: 0.7s;
     transition: 0.7s;
     -webkit-transition: 0.7s;
     -moz-transition: 0.7s;
@@ -169,6 +157,11 @@
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
     color: var(--banner-white);
+  }
+
+  .fa-xmark {
+    width: 30px;
+    height: 30px;
   }
   
   /* -------------Hero Styling------------- */
@@ -299,6 +292,8 @@
   }
   
   .side-button .fa-angle-right {
+    height: 30px;
+    width: 30px;
     transition: transform 0.7s;
     -webkit-transition: transform 0.7s;
     -moz-transition: transform 0.7s;
@@ -331,9 +326,10 @@
     margin-bottom: 1px;
   }
   
-  .download-icon {
-    padding: 2px 8px;
-    margin: 0;
+  .fa-platform-icon {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
   }
   
   /* Which OS download to hide */
@@ -471,6 +467,12 @@
     background-color: hsla(216, 90%, 77%, 0.5);
     text-decoration: none;
   }
+
+  .fa-angle {
+    padding-top: 5px;
+    height: 25px;
+    width: 25px;
+  }
   
   .dot {
     display: inline-block;
@@ -593,38 +595,62 @@
     margin-left: 3%;
     margin-right: 3%;
   }
-  
-  .icons-color {
+
+  .feature-icons li .a-size {
+    display:inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #267cb9;
+  }
+
+  .docs-icon {
+    width: 60px;
+    height: 79px;
+    margin-top: 20px;
+  }
+
+  .comment-icon {
+    width: 90px;
+    height: 79px;
+    margin-top: 20px
+  }
+
+  .code-icon {
+    width: 100px;
+    height: 79px;
+    margin-top: 20px
+  }
+
+  .feature-icons li .icons-color {
+    display:inline-block;
     width: 120px;
     height: 120px;
     z-index: -5;
-    padding-top: 17px;
-    padding-bottom: 10px;
-    border-radius: 100px;
+    border-radius: 50%;
     color: var(--off-black);
     background: var(--blue);
     transition: background-color 0.5s ease-out 30ms;
   }
   
-  .icons-color:hover {
+  .feature-icons li .icons-color:hover {
     background-color: var(--blue-darken);
   }
   
-  .green-color {
+  .feature-icons li .green-color {
     background: var(--green);
     transition: background-color 0.5s ease-out 30ms;
   }
   
-  .green-color:hover {
+  .feature-icons li .green-color:hover {
     background-color: var(--green-darken);
   }
   
-  .red-color {
+  .feature-icons li .red-color {
     background: var(--red);
     transition: background-color 0.5s ease-out 30ms;
   }
   
-  .red-color:hover {
+  .feature-icons li .red-color:hover {
     background-color: var(--red-darken);
   }
   
@@ -678,11 +704,20 @@
     padding-right: 10px;
     padding-bottom: 20px;
   }
+
+  .social_icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
   
-  .fa-github {
+  .github_icon {
     color: #000;
   }
   
-  .fa-twitter {
-    color: #48a1eb;
+  .twitter_icon {
+    filter: #48a1eb;
   }
