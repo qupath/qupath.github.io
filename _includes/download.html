@@ -14,27 +14,26 @@
             page.download_button_lin }}</a>
         <div class="dropdown" tabindex=“-1”>
             <button title="expand-side-button" class="button windows-button side-button" tabindex=“0”
-                aria-label="{{ page.dropdown_aria  }}"><img src="/assets/images/icons/angle-right-solid.svg"
-                    class="fa-angle-right" alt="right angle button"></span></button>
+                aria-label="{{ page.dropdown_aria  }}"><i class="fa-solid fa-angle-right"></i></button>
             <div class="dropdown-content">
                 <a href="{{ page.qupath_download_msi }}" tabindex=“0”
-                    aria-label="{{ page.download_dropdown_msi_aria  }}"><img src="/assets/images/icons/windows.svg"
-                        class="fa-platform-icon" alt="windows icon">{{ page.download_dropdown_msi }}</a>
+                    aria-label="{{ page.download_dropdown_msi_aria  }}"><i
+                        class="fa-brands fa-windows download-icon"></i>{{ page.download_dropdown_msi }}</a>
                 <a href="{{ page.qupath_download_zip }}" tabindex=“0”
-                    aria-label="{{ page.download_dropdown_zip_aria  }}"><img src="/assets/images/icons/windows.svg"
-                        class="fa-platform-icon" alt="windows icon">{{ page.download_dropdown_zip }}</a>
+                    aria-label="{{ page.download_dropdown_zip_aria  }}"><i
+                        class="fa-brands fa-windows download-icon"></i>{{ page.download_dropdown_zip }}</a>
                 <hr>
                 <a href="{{ page.qupath_download_pkg }}" tabindex=“0”
-                    aria-label="{{ page.download_dropdown_pkg_aria  }}"><img src="/assets/images/icons/apple.svg"
-                        class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg }}</a>
+                    aria-label="{{ page.download_dropdown_pkg_aria  }}"><i
+                        class="fa-brands fa-apple download-icon"></i>{{ page.download_dropdown_pkg }}</a>
                 <a href="{{ page.qupath_download_pkg_s }}" tabindex=“0”
-                    aria-label="{{ page.download_dropdown_pkg_s_aria  }}"><img src="/assets/images/icons/apple.svg"
-                        class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg_s }}<span
+                    aria-label="{{ page.download_dropdown_pkg_s_aria  }}"><i
+                        class="fa-brands fa-apple download-icon"></i>{{ page.download_dropdown_pkg_s }}<span
                         id="super">beta</span></a>
                 <hr>
                 <a href="{{ page.qupath_download_tar }}" tabindex=“0”
-                    aria-label="{{ page.download_dropdown_tar_aria  }}"><img src="/assets/images/icons/linux.svg"
-                        class="fa-platform-icon" alt="linux icon">{{ page.download_dropdown_tar }}</a>
+                    aria-label="{{ page.download_dropdown_tar_aria  }}"><i
+                        class="fa-brands fa-linux download-icon"></i>{{ page.download_dropdown_tar }}</a>
             </div>
         </div>
         <p class="bold"><a href="{{ page.qupath_release_notes }}" target=blank>{{ page.latest_release_notes }}</a></p>
