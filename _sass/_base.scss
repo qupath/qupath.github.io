@@ -385,6 +385,69 @@
     display: none !important;
   }
   
+/* MAC Dropdown Content (Hidden by Default)*/
+.mac-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  height: auto;
+}
+
+.mac-dropdown-content {
+  visibility: hidden;
+  visibility: visible;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 10px;
+  font-size: 12pt;
+  background-color: var(--yellow-lighten);
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 15px;
+  height: auto;
+  -webkit-transition: background-color 0.3s ease-in-out 30ms;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
+/* Dropdown content show/hide*/
+.mac-dropdown:hover .mac-dropdown-content,
+.mac-dropdown:focus-within .mac-dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
+/* Dropdown content styling*/
+.mac-dropdown-content a {
+  color: var(--off-black);
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  -webkit-transition: background-color 0.3s ease-in-out 30ms;
+}
+
+/* Dropdown content styling on hover*/
+.mac-dropdown-content a:hover,
+.mac-dropdown-content a:focus-within {
+  background-color: var(--yellow-darken);
+  border-radius: 10px;
+  color: var(--off-black);
+}
+
+.mac-dropdown-content hr {
+  height: 0.5px;
+  width: 80%;
+  border: none;
+  color: var(--off-black);
+  background-color: var(--off-black);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
   /* -------------Slideshow Styling------------- */
   .slideshow-container {
     max-width: 1000px;

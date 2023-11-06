@@ -6,8 +6,8 @@
         <a class="button windows-button main-button" href="{{ page.qupath_download_msi }}" data-for-os="win"
             data-download="win" tabindex=“0” aria-label="{{ page.download_dropdown_msi_aria  }}">{{
             page.download_button_win }}</a>
-        <a class="button mac-button main-button" href="{{ page.qupath_download_pkg }}" data-for-os="mac"
-            data-download="mac" tabindex=“0” aria-label="{{ page.download_dropdown_pkg_aria  }}">{{
+        <a class="button mac-button main-button" data-for-os="mac" data-download="mac" tabindex=“0”
+            aria-label="{{ page.download_dropdown_pkg_aria  }}">{{
             page.download_button_mac }}</a>
         <a class="button linux-button main-button" href="{{ page.qupath_download_tar }}" data-for-os="lin"
             data-download="lin" tabindex=“0” aria-label="{{ page.download_dropdown_tar_aria  }}">{{
@@ -35,6 +35,17 @@
                 <a href="{{ page.qupath_download_tar }}" tabindex=“0”
                     aria-label="{{ page.download_dropdown_tar_aria  }}"><img src="/assets/images/icons/linux.svg"
                         class="fa-platform-icon" alt="linux icon">{{ page.download_dropdown_tar }}</a>
+            </div>
+        </div>
+        <div class="mac-dropdown" tabindex=“-1”>
+            <div class="mac-dropdown-content">
+                <a href="{{ page.qupath_download_pkg }}" tabindex=“0”
+                    aria-label="{{ page.download_dropdown_pkg_aria  }}"><img src="/assets/images/icons/apple.svg"
+                        class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg }}</a>
+                <a href="{{ page.qupath_download_pkg_s }}" tabindex=“0”
+                    aria-label="{{ page.download_dropdown_pkg_s_aria  }}"><img src="/assets/images/icons/apple.svg"
+                        class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg_s }}<span
+                        id="super">beta</span></a>
             </div>
         </div>
         <p class="bold"><a href="{{ page.qupath_release_notes }}" target=blank>{{ page.latest_release_notes }}</a></p>
