@@ -22,7 +22,7 @@ qupath_youtube: https://www.youtube.com/c/qupath
 #Metadata
 layout: landing
 title: QuPath
-description: QuPath is cross-platform, user-friendly open source software for digital pathology and whole slide image analysis, written using JavaFX.  QuPath has also been designed to be developer-friendly, and combines an extensible design with powerful scripting tools.
+description: QuPath is cross-platform, user-friendly open source software for digital pathology and whole slide image analysis, written using JavaFX. QuPath has also been designed to be developer-friendly, and combines an extensible design with powerful scripting tools.
 logo: assets/images/favicon.ico
 
 #Banner
@@ -52,9 +52,16 @@ download_dropdown_pkg_aria: follow this link to download qupath for macOS intel 
 download_dropdown_pkg_s_aria: follow this link to download qupath for macOS apple silicon p k g 185 M B
 download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 209 M B
 
+qupath_download_which: https://qupath.readthedocs.io/en/0.4/docs/intro/installation.html#apple-silicon
+download_dropdown_which: Not sure which version?
+download_dropdown_which_aria: Follow this link to learn more about which mac version to download
+
 latest_release_notes: Release notes v0.4.4
 all_release_notes: Looking for another version? Find <a href="https://github.com/qupath/qupath/releases" target=blank>all releases</a>
 install_troubleshooting: Trouble installing? Check out the <a href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>installation notes</a>
+which_mac_version: Not sure which Mac version you need? The <a href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>ReadTheDocs</a> may help
+
+
 
 #Three Icons content
 icon-1-title: Docs
