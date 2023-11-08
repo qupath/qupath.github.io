@@ -402,8 +402,7 @@
 
 /* Mac dropdown content show/hide logic*/
 .mac-dropdown:hover .mac-dropdown-content,
-.mac-dropdown:focus-within .mac-dropdown-content,
-.mac-button:focus-within .mac-dropdown-content {
+.mac-dropdown:focus-within .mac-dropdown-content {
   visibility: visible;
   opacity: 1;
   transition: opacity 0.3s ease-in-out 0.3s;

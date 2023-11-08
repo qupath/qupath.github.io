@@ -7,9 +7,9 @@
             data-download="win" tabindex=“0” aria-label="{{ page.download_dropdown_msi_aria  }}">{{
             page.download_button_win }}</a>
         <div class="mac-dropdown" data-for-os="mac" data-download="mac" tabindex=“-1”>
-            <a class="button mac-button main-button" data-for-os="mac" data-download="mac" tabindex=“0”
+            <button class="button mac-button main-button mac-dropdown" data-for-os="mac" data-download="mac" tabindex=“0”
                 aria-label="{{ page.download_dropdown_mac_aria  }}">{{
-                page.download_button_mac }}</a>
+                page.download_button_mac }}</button>
             <div class="mac-dropdown-content dropdown-content" tabindex=“0”>
                 <a href="{{ page.qupath_download_pkg }}" tabindex=“0”
                     aria-label="{{ page.download_dropdown_pkg_aria  }}"><img src="/assets/images/icons/apple.svg"
