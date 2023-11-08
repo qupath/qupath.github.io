@@ -1,16 +1,16 @@
 <!-- Downloads component -->
 <div id="downloads" class="standard-component">
     <div class="download-container">
-        <a class="button windows-button main-button" href="{{ page.qupath_releases }}" data-for-os="default"
-            data-download="win" tabindex=“-1”>{{ page.download_button_default }}</a>
+        <a class="button default-button main-button" href="{{ page.qupath_releases }}" data-for-os="default"
+            data-download="default" tabindex=“-1”>{{ page.download_button_default }}</a>
         <a class="button windows-button main-button" href="{{ page.qupath_download_msi }}" data-for-os="win"
             data-download="win" tabindex=“0” aria-label="{{ page.download_dropdown_msi_aria  }}">{{
             page.download_button_win }}</a>
-        <div class="mac-dropdown" tabindex=“-1”>
+        <div class="mac-dropdown" data-for-os="mac" data-download="mac" tabindex=“0”>
             <a class="button mac-button main-button" data-for-os="mac" data-download="mac" tabindex=“0”
-                aria-label="{{ page.download_dropdown_pkg_aria  }}">{{
+                aria-label="{{ page.download_dropdown_mac_aria  }}">{{
                 page.download_button_mac }}</a>
-            <div class="mac-dropdown-content dropdown-content">
+            <div class="mac-dropdown-content dropdown-content" tabindex=“0”>
                 <a href="{{ page.qupath_download_pkg }}" tabindex=“0”
                     aria-label="{{ page.download_dropdown_pkg_aria  }}"><img src="/assets/images/icons/apple.svg"
                         class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg }}</a>
@@ -19,8 +19,8 @@
                         class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg_s }}<span
                         id="super">beta</span></a>
                 <a href="{{ page.qupath_download_which }}" tabindex=“0”
-                    aria-label="{{ page.download_dropdown_which_aria  }}" target=blank><img src="/assets/images/icons/circle-info.svg"
-                    class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_which }}
+                    aria-label="{{ page.download_dropdown_which_aria  }}"><img src="/assets/images/icons/circle-info.svg"
+                    class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_which }}</a>
             </div>
         </div>
         <a class="button linux-button main-button" href="{{ page.qupath_download_tar }}" data-for-os="lin"
@@ -54,6 +54,6 @@
         <p class="bold"><a href="{{ page.qupath_release_notes }}" target=blank>{{ page.latest_release_notes }}</a></p>
         <p>{{page.all_release_notes }}</p>
         <p>{{page.install_troubleshooting }}</p>
-        <p>{{page.which_mac_version }}</p>
+        <p data-for-os="mac" data-download="mac">{{page.which_mac_version }}</p>
     </div>
 </div>

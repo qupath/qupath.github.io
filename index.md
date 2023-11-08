@@ -48,13 +48,14 @@ download_dropdown_tar: Linux (tar.xz)
 download_dropdown_aria: Submenu to download alternative releases
 download_dropdown_msi_aria: follow this link to download qupath for windows m s i 224 M B
 download_dropdown_zip_aria: follow this link to download qupath for windows Z I P 223 M B
+download_dropdown_mac_aria: Choose which mac version to download
 download_dropdown_pkg_aria: follow this link to download qupath for macOS intel p k g 216 M B
 download_dropdown_pkg_s_aria: follow this link to download qupath for macOS apple silicon p k g 185 M B
+download_dropdown_which_aria: Follow this link to learn more about which mac version to download
 download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 209 M B
 
 qupath_download_which: https://qupath.readthedocs.io/en/0.4/docs/intro/installation.html#apple-silicon
 download_dropdown_which: Not sure which version?
-download_dropdown_which_aria: Follow this link to learn more about which mac version to download
 
 latest_release_notes: Release notes v0.4.4
 all_release_notes: Looking for another version? Find <a href="https://github.com/qupath/qupath/releases" target=blank>all releases</a>
