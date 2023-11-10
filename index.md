@@ -54,15 +54,12 @@ download_dropdown_pkg_s_aria: follow this link to download qupath for macOS appl
 download_dropdown_which_aria: Follow this link to learn more about which mac version to download
 download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 209 M B
 
-qupath_download_which: https://qupath.readthedocs.io/en/0.4/docs/intro/installation.html#apple-silicon
+qupath_download_which: https://qupath.readthedocs.io/en/latest/docs/intro/installation.html#qupath-for-mac
 download_dropdown_which: Not sure which version?
 
 latest_release_notes: Release notes v0.4.4
 all_release_notes: Looking for another version? Find <a href="https://github.com/qupath/qupath/releases" target=blank>all releases</a>
 install_troubleshooting: Trouble installing? Check out the <a href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>installation notes</a>
-which_mac_version: Not sure which Mac version you need? The <a href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>ReadTheDocs</a> may help
-
-
 
 #Three Icons content
 icon-1-title: Docs

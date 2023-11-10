@@ -331,6 +331,40 @@
     height: 15px;
     width: 15px;
   }
+
+  /* Mac Dropdown Content (Hidden by Default)*/
+.mac-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  height: auto;
+}
+
+/* Mac dropdown content positioning*/
+.mac-dropdown-content {
+  right: -35px;
+}
+
+/* Mac dropdown content show/hide */
+.mac-dropdown:hover .mac-dropdown-content,
+.mac-dropdown:focus-within .mac-dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
+/* Dropdown info section (as seen on Mac) */
+a.dropdown-info {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+a.dropdown-info:hover {
+  text-decoration:underline;
+}
   
   /* Which OS download to hide */
   /* Windows */
@@ -384,39 +418,6 @@
   html.mac [data-for-os="default"] {
     display: none !important;
   }
-  
-/* Mac Dropdown Content (Hidden by Default)*/
-.mac-dropdown {
-  position: relative;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-  height: auto;
-}
-
-/* Mac dropdown content positioning*/
-.mac-dropdown-content {
-  right: -35px;
-}
-
-/* Mac dropdown content show/hide logic*/
-.mac-dropdown:hover .mac-dropdown-content,
-.mac-dropdown:focus-within .mac-dropdown-content {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out 0.3s;
-}
-
-a.dropdown-info {
-  text-align: center;
-  font-size: 15px;
-  font-weight: 900;
-}
-
-a.dropdown-info:hover {
-  text-decoration:underline;
-}
 
   /* -------------Slideshow Styling------------- */
   .slideshow-container {
