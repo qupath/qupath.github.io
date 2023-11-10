@@ -7,7 +7,6 @@
     } else {
       htmlElement.className = "macAll";
     }
-    console.log(navigator.platform);
   } else if (navigator.platform.match(/(Win16|Win32|Android)/i)) {
     htmlElement.className = "win";
   } else if (
@@ -19,6 +18,4 @@
   } else {
     htmlElement.className = "default";
   }
-
-  // console.log(htmlElement.className);
 })();
