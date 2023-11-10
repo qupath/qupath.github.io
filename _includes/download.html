@@ -18,9 +18,11 @@
                     aria-label="{{ page.download_dropdown_pkg_s_aria  }}"><img src="/assets/images/icons/apple.svg"
                         class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg_s }}<span
                         id="super">beta</span></a>
-                <a href="{{ page.qupath_download_which }}" tabindex=“0”
+                <a href="{{ page.qupath_download_which }}" tabindex=“0” class="dropdown-info"
+                    aria-label="{{ page.download_dropdown_which_aria  }}" target="blank">{{ page.download_dropdown_which }}</a>
+                <!-- <a href="{{ page.qupath_download_which }}" tabindex=“0” class="dropdown-info"
                     aria-label="{{ page.download_dropdown_which_aria  }}"><img src="/assets/images/icons/circle-info.svg"
-                    class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_which }}</a>
+                    class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_which }}</a> -->
             </div>
         </div>
         <a class="button linux-button main-button" href="{{ page.qupath_download_tar }}" data-for-os="lin"
@@ -54,6 +56,6 @@
         <p class="bold"><a href="{{ page.qupath_release_notes }}" target=blank>{{ page.latest_release_notes }}</a></p>
         <p>{{page.all_release_notes }}</p>
         <p>{{page.install_troubleshooting }}</p>
-        <p data-for-os="mac" data-download="mac">{{page.which_mac_version }}</p>
+        <!-- <p data-for-os="mac" data-download="mac">{{page.which_mac_version }}</p> -->
     </div>
 </div>
