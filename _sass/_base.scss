@@ -367,8 +367,12 @@ a.dropdown-info:hover {
 }
   
   /* Which OS download to hide */
-  /* Windows */
-  html.mac [data-for-os="win"] {
+  // Display the windows download only and hide the following:
+  html.macAll [data-for-os="win"] {
+    display: none !important;
+  }
+
+  html.macIntel [data-for-os="win"] {
     display: none !important;
   }
   
@@ -381,7 +385,12 @@ a.dropdown-info:hover {
   }
   
   /* Linux */
-  html.mac [data-for-os="lin"] {
+  // Display the linux download only and hide the following:
+  html.macAll [data-for-os="lin"] {
+    display: none !important;
+  }
+  
+  html.macIntel [data-for-os="lin"] {
     display: none !important;
   }
   
@@ -392,30 +401,58 @@ a.dropdown-info:hover {
   html.default [data-for-os="lin"] {
     display: none !important;
   }
-  
-  /* Mac */
-  html.win [data-for-os="mac"] {
+
+  /* Mac Intel*/
+  // Display the apple intel download only and hide the following:
+  html.macAll [data-for-os="macIntel"] {
+    display: none !important;
+  }
+
+  html.win [data-for-os="macIntel"] {
     display: none !important;
   }
   
-  html.lin [data-for-os="mac"] {
+  html.lin [data-for-os="macIntel"] {
     display: none !important;
   }
   
-  html.default [data-for-os="mac"] {
+  html.default [data-for-os="macIntel"] {
+    display: none !important;
+  }
+  
+  /* Mac All (non-apple intel)*/
+  // Display apple download with options and hide the following:
+  html.macIntel [data-for-os="macAll"] {
+    display: none !important;
+  }
+  
+  html.win [data-for-os="macAll"] {
+    display: none !important;
+  }
+  
+  html.lin [data-for-os="macAll"] {
+    display: none !important;
+  }
+  
+  html.default [data-for-os="macAll"] {
     display: none !important;
   }
   
   /* Not sure what platform? */
+  // Display the default button
+  html.macAll [data-for-os="default"] {
+    display: none !important;
+  }
+
+  html.macIntel [data-for-os="default"] {
+    display: none !important;
+  }
+
   html.win [data-for-os="default"] {
     display: none !important;
   }
   
   html.lin [data-for-os="default"] {
-    display: none !important;
-  }
-  
-  html.mac [data-for-os="default"] {
     display: none !important;
   }
 
