@@ -1,19 +1,36 @@
 <!-- Downloads component -->
 <div id="downloads" class="standard-component">
     <div class="download-container">
-        <a class="button windows-button main-button" href="{{ page.qupath_releases }}" data-for-os="default"
-            data-download="win" tabindex=“-1”>{{ page.download_button_default }}</a>
+        <a class="button default-button main-button" href="{{ page.qupath_releases }}" data-for-os="default"
+            data-download="default" tabindex=“-1”>{{ page.download_button_default }}</a>
         <a class="button windows-button main-button" href="{{ page.qupath_download_msi }}" data-for-os="win"
             data-download="win" tabindex=“0” aria-label="{{ page.download_dropdown_msi_aria  }}">{{
             page.download_button_win }}</a>
-        <a class="button mac-button main-button" href="{{ page.qupath_download_pkg }}" data-for-os="mac"
-            data-download="mac" tabindex=“0” aria-label="{{ page.download_dropdown_pkg_aria  }}">{{
+        <a class="button mac-button main-button" href="{{ page.qupath_download_pkg }}" data-for-os="macIntel"
+            data-download="macIntel" tabindex=“0” aria-label="{{ page.download_dropdown_mac_aria  }}">{{
             page.download_button_mac }}</a>
+        <div class="mac-dropdown" data-for-os="macAll" data-download="macAll" tabindex=“-1”>
+            <button title="mac download options" class="button mac-button main-button mac-dropdown" data-for-os="macAll"
+                data-download="macAll" tabindex=“0” aria-label="{{ page.download_dropdown_mac_aria  }}">{{
+                page.download_button_mac }}</button>
+            <div class="mac-dropdown-content dropdown-content" tabindex=“0”>
+                <a href="{{ page.qupath_download_pkg }}" tabindex=“0”
+                    aria-label="{{ page.download_dropdown_pkg_aria  }}"><img src="/assets/images/icons/apple.svg"
+                        class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg }}</a>
+                <a href="{{ page.qupath_download_pkg_s }}" tabindex=“0”
+                    aria-label="{{ page.download_dropdown_pkg_s_aria  }}"><img src="/assets/images/icons/apple.svg"
+                        class="fa-platform-icon" alt="apple icon">{{ page.download_dropdown_pkg_s }}<span
+                        id="super">beta</span></a>
+                <a href="{{ page.qupath_download_which }}" tabindex=“0” class="dropdown-info"
+                    aria-label="{{ page.download_dropdown_which_aria  }}"
+                    target="blank">{{ page.download_dropdown_which }}</a>
+            </div>
+        </div>
         <a class="button linux-button main-button" href="{{ page.qupath_download_tar }}" data-for-os="lin"
             data-download="lin" tabindex=“0” aria-label="{{ page.download_dropdown_tar_aria  }}">{{
             page.download_button_lin }}</a>
         <div class="dropdown" tabindex=“-1”>
-            <button title="expand-side-button" class="button windows-button side-button" tabindex=“0”
+            <button title="more download options" class="button windows-button side-button" tabindex=“0”
                 aria-label="{{ page.dropdown_aria  }}"><img src="/assets/images/icons/angle-right-solid.svg"
                     class="fa-angle-right" alt="right angle button"></span></button>
             <div class="dropdown-content">
@@ -38,8 +55,7 @@
             </div>
         </div>
         <p class="bold"><a href="{{ page.qupath_release_notes }}" target=blank>{{ page.latest_release_notes }}</a></p>
-        <p>{{page.all_release_notes }}
-        </p>
+        <p>{{page.all_release_notes }}</p>
         <p>{{page.install_troubleshooting }}</p>
     </div>
 </div>

@@ -207,7 +207,7 @@
     text-decoration: none;
     font-size: 16pt;
     border-radius: 10px;
-    color: var(--off-black);
+    color: var(--off-black) !important;
     background-color: var(--yellow);
     transition: background-color 0.3s ease-in-out 30ms;
   }
@@ -331,10 +331,48 @@
     height: 15px;
     width: 15px;
   }
+
+  /* Mac Dropdown Content (Hidden by Default)*/
+.mac-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  height: auto;
+}
+
+/* Mac dropdown content positioning*/
+.mac-dropdown-content {
+  right: -35px;
+}
+
+/* Mac dropdown content show/hide */
+.mac-dropdown:hover .mac-dropdown-content,
+.mac-dropdown:focus-within .mac-dropdown-content {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out 0.3s;
+}
+
+/* Dropdown info section (as seen on Mac) */
+a.dropdown-info {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+a.dropdown-info:hover {
+  text-decoration:underline;
+}
   
   /* Which OS download to hide */
-  /* Windows */
-  html.mac [data-for-os="win"] {
+  // Display the windows download only and hide the following:
+  html.macAll [data-for-os="win"] {
+    display: none !important;
+  }
+
+  html.macIntel [data-for-os="win"] {
     display: none !important;
   }
   
@@ -347,7 +385,12 @@
   }
   
   /* Linux */
-  html.mac [data-for-os="lin"] {
+  // Display the linux download only and hide the following:
+  html.macAll [data-for-os="lin"] {
+    display: none !important;
+  }
+  
+  html.macIntel [data-for-os="lin"] {
     display: none !important;
   }
   
@@ -358,21 +401,53 @@
   html.default [data-for-os="lin"] {
     display: none !important;
   }
-  
-  /* Mac */
-  html.win [data-for-os="mac"] {
+
+  /* Mac Intel*/
+  // Display the apple intel download only and hide the following:
+  html.macAll [data-for-os="macIntel"] {
+    display: none !important;
+  }
+
+  html.win [data-for-os="macIntel"] {
     display: none !important;
   }
   
-  html.lin [data-for-os="mac"] {
+  html.lin [data-for-os="macIntel"] {
     display: none !important;
   }
   
-  html.default [data-for-os="mac"] {
+  html.default [data-for-os="macIntel"] {
+    display: none !important;
+  }
+  
+  /* Mac All (non-apple intel)*/
+  // Display apple download with options and hide the following:
+  html.macIntel [data-for-os="macAll"] {
+    display: none !important;
+  }
+  
+  html.win [data-for-os="macAll"] {
+    display: none !important;
+  }
+  
+  html.lin [data-for-os="macAll"] {
+    display: none !important;
+  }
+  
+  html.default [data-for-os="macAll"] {
     display: none !important;
   }
   
   /* Not sure what platform? */
+  // Display the default button
+  html.macAll [data-for-os="default"] {
+    display: none !important;
+  }
+
+  html.macIntel [data-for-os="default"] {
+    display: none !important;
+  }
+
   html.win [data-for-os="default"] {
     display: none !important;
   }
@@ -380,11 +455,7 @@
   html.lin [data-for-os="default"] {
     display: none !important;
   }
-  
-  html.mac [data-for-os="default"] {
-    display: none !important;
-  }
-  
+
   /* -------------Slideshow Styling------------- */
   .slideshow-container {
     max-width: 1000px;
