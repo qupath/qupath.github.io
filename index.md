@@ -5,11 +5,11 @@ qupath_java_docs: https://qupath.github.io/javadoc/docs/
 qupath_releases: https://github.com/qupath/qupath/releases/
 qupath_release_notes: https://github.com/qupath/qupath/releases/tag/v0.5.0
 qupath_release_latest: https://github.com/qupath/qupath/releases/latest
-qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-0.5.0-Windows.msi
-qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-0.5.0-Windows.zip
-qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-0.5.0-Mac.pkg
-qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-0.5.0-Mac-arm64.pkg
-qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-0.5.0-Linux.tar.xz
+qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-v0.5.0-Windows.msi
+qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-v0.5.0-Windows.zip
+qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-v0.5.0-Mac-x64.pkg
+qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-v0.5.0-Mac-arm64.pkg
+qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.5.0/QuPath-v0.5.0-Linux.tar.xz
 qupath_documentation: https://qupath.readthedocs.io/en/stable/
 qupath_installation: https://qupath.readthedocs.io/en/stable/docs/intro/installation.html
 qupath_citation: https://qupath.readthedocs.io/en/stable/docs/intro/citing.html
