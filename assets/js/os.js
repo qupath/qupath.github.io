@@ -10,7 +10,6 @@
     // }
   } else if (navigator.platform.match(/(Win16|Win32|Android)/i)) {
     htmlElement.className = "win";
-    console.log(navigator.platform);
   } else if (
     navigator.platform.match(
       /(Linux i686|Linux armv7l|Linux x86_64|Linux x86_64)/i
