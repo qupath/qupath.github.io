@@ -1,6 +1,7 @@
 ---
-slide-title: Get started
-slide-content: See how QuPath can help visualize & analyze complex images with our step-by-step guides on <a href="https://qupath.readthedocs.io/en/stable/" target=blank>ReadTheDocs</a>.
-slide-img: /assets/images/slideshow/qupath-getting-started.png
-slide-img-class: screenshot-img
+slide-title: v0.5.1 is here!
+slide-content: <br> Lots of improvements, fixes & features - check out <a href="https://github.com/qupath/qupath/releases/latest"target=blank>releases</a> or the <a href="https://www.youtube.com/watch?v=tV-BYEHVCw8"target=blank>I2K YouTube video</a> to find out more. 
+slide-img: /assets/images/slideshow/qupath-jobs.png
+slide-img-class: inverse
+slide-text-class: inverse-text
 ---

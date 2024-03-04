@@ -1,5 +1,6 @@
 ---
-slide-title: Understand images
-slide-content: Learn the core ideas behind analyzing images from QuPath’s creator, in the new interactive handbook <a href="https://bioimagebook.github.io/README.html" target=blank>Introduction to Bioimage Analysis</a>.
-slide-img: /assets/images/slideshow/pete-teaching.png
+slide-title: Annotate faster
+slide-content: QuPath has lots of tricks to annotate images quickly. See them in action in this <a href="https://twitter.com/petebankhead/status/1295965136646176768?s=20 t=ETG2R8JKrhtT-kSZdW-Cnw" target=blank >annotation tweetorial</a>.
+slide-img: /assets/images/slideshow/annotation-snapping.jpg
+slide-img-class: screenshot-img
 ---
