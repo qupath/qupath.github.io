@@ -4,7 +4,7 @@
     {% for slide in site.slides %}
     <div class="mySlides fade">
         <div class="slide">
-            <div class="slide-text">
+            <div class="slide-text {{ slide.slide-text-class }}">
                 <h2>{{slide.slide-title }}</h2>
                 <p> {{slide.slide-content }}</p>
             </div>
