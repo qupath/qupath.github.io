@@ -9,7 +9,6 @@
     --link-blue: #267cb9;
     --link-green: #86c351;
     --banner-blue: #324b69;
-    --banner-green: #86c351;
     --banner-red: #c72d00;
     --banner-white: aliceblue;
     --yellow: #ffe77f;
@@ -99,7 +98,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-right: auto;
-    margin-left: auto;
+   ` margin-left: auto;
   }
   
   /* -------------News banner styling------------- */
@@ -113,8 +112,7 @@
     min-width: 330px;
     margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
-    background-color: var(--banner-green);
-    // background-color: var(--banner-red);
+    background-color: var(--banner-red);
   }
   
   div.news-banner-text {
