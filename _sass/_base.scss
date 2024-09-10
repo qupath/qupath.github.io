@@ -9,7 +9,8 @@
     --link-blue: #267cb9;
     --link-green: #86c351;
     --banner-blue: #324b69;
-    --banner-green: #4a6b3d;
+    --banner-green: #86c351;
+    --banner-red: #c72d00;
     --banner-white: aliceblue;
     --yellow: #ffe77f;
     --yellow-darken: #ffd519;
@@ -113,6 +114,7 @@
     margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
     background-color: var(--banner-green);
+    // background-color: var(--banner-red);
   }
   
   div.news-banner-text {
