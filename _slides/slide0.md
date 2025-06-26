@@ -1,5 +1,7 @@
 ---
-slide-title: From Zero to QuPath Hero!
-slide-content: <br> Join Laura on her epic journey from humble beginnings to QuPath mastery in her new <a href="https://www.youtube.com/watch?v=MBrAVUsUdio&list=PLSCpSsEmyRpANBGQXB_oGslW9NIJz4A12&ab_channel=LauraNicolas-Saenz"target=blank>YouTube series</a>. 
-slide-img: /assets/images/slideshow/zero-hero-thumbnail.gif
+slide-title: v0.6.0 has arrived!
+slide-content: <br> QuPath v0.6.0 is out now — featuring new tools and a bunch of updates. Learn more about what's new in the new <a href="TODO"target=blank>detailed release notes</a> or check out the usual release notes <a href="https://github.com/qupath/qupath/releases/latest"target=blank>here</a>.
+slide-img: /assets/images/slideshow/qupath-jobs.png
+slide-img-class: inverse
+slide-text-class: inverse-text
 ---

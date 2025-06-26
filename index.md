@@ -3,13 +3,13 @@
 qupath_github: https://github.com/qupath/qupath
 qupath_java_docs: https://qupath.github.io/javadoc/docs/
 qupath_releases: https://github.com/qupath/qupath/releases/
-qupath_release_notes: https://github.com/qupath/qupath/releases/tag/v0.5.1
+qupath_release_notes: https://github.com/qupath/qupath/releases/tag/v0.6.0
 qupath_release_latest: https://github.com/qupath/qupath/releases/latest
-qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.5.1/QuPath-v0.5.1-Windows.msi
-qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.5.1/QuPath-v0.5.1-Windows.zip
-qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.5.1/QuPath-v0.5.1-Mac-x64.pkg
-qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.5.1/QuPath-v0.5.1-Mac-arm64.pkg
-qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.5.1/QuPath-v0.5.1-Linux.tar.xz
+qupath_download_msi: https://github.com/qupath/qupath/releases/download/v0.6.0/QuPath-v0.6.0-Windows.msi
+qupath_download_zip: https://github.com/qupath/qupath/releases/download/v0.6.0/QuPath-v0.6.0-Windows.zip
+qupath_download_pkg: https://github.com/qupath/qupath/releases/download/v0.6.0/QuPath-v0.6.0-Mac-x64.pkg
+qupath_download_pkg_s: https://github.com/qupath/qupath/releases/download/v0.6.0/QuPath-v0.6.0-Mac-arm64.pkg
+qupath_download_tar: https://github.com/qupath/qupath/releases/download/v0.6.0/QuPath-v0.6.0-Linux.tar.xz
 qupath_documentation: https://qupath.readthedocs.io/en/stable/
 qupath_installation: https://qupath.readthedocs.io/en/stable/docs/intro/installation.html
 qupath_citation: https://qupath.readthedocs.io/en/stable/docs/intro/citing.html
@@ -57,7 +57,7 @@ download_dropdown_tar_aria: follow this link to download qupath for Linux t a r 
 qupath_download_which: https://qupath.readthedocs.io/en/latest/docs/intro/installation.html#qupath-for-mac
 download_dropdown_which: Not sure which version?
 
-latest_release_notes: Release notes v0.5.1
+latest_release_notes: Release notes v0.6.0
 all_release_notes: Looking for another version? Find <a href="https://github.com/qupath/qupath/releases" target=blank>all releases</a>
 install_troubleshooting: Trouble installing? Check out the <a href="https://qupath.readthedocs.io/en/stable/docs/intro/installation.html" target=blank>installation notes</a>
 
