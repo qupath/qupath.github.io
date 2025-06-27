@@ -75,6 +75,7 @@ icon-3-aria: follow this link to the qupath github code base
 #footer
 footer-1: To reference QuPath in scientific publications, see <a href="https://qupath.readthedocs.io/en/stable/docs/intro/citing.html" target="_blank" rel=”noopener”>'How to cite QuPath'</a>
 footer-2: QuPath is open source software, licensed under the <a href="https://github.com/qupath/qupath/blob/main/LICENSE" target="_blank" rel=”noopener”>GNU General Public License</a>
+footer-3: QuPath is not intended for clinical, diagnostic or therapeutic purposes.
 twitter_aria: follow this link to the qupath github twitter account
 github_aria: follow this link to the qupath github code base
 ---
