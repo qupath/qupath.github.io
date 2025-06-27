@@ -1,7 +1,10 @@
 <!-- Slideshow component -->
 <div class="slideshow-container standard-component">
     <!-- Full-width images with number and caption text -->
-    {% for slide in site.slides %}
+
+    {% assign slides_list = site.slides | sort:"priority" %}
+    {% for slide in slides_list %}
+    {% unless slide.hide %}
     <div class="mySlides fade">
         <div class="slide">
             <div class="slide-text {{ slide.slide-text-class }}">
@@ -11,6 +14,7 @@
             <img src="{{ slide.slide-img }}" class="{{ slide.slide-img-class }}" alt="">
         </div>
     </div>
+    {% endunless %}
     {% endfor %}
 
     <!-- Next and previous buttons -->
@@ -22,9 +26,9 @@
 <br>
 <!-- The dots/circles -->
 <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)" tabindex="0"></span>
-    <span class="dot" onclick="currentSlide(2)" tabindex="0"></span>
-    <span class="dot" onclick="currentSlide(3)" tabindex="0"></span>
-    <span class="dot" onclick="currentSlide(4)" tabindex="0"></span>
-    <span class="dot" onclick="currentSlide(5)" tabindex="0"></span>
+    {% for slide in site.slides | sort:"priority" | reversed %}
+        {% unless slide.hide %}
+    <span class="dot" onclick="currentSlide({{ forloop.index }})" tabindex="0"></span>
+        {% endunless %}
+    {% endfor %}
 </div>
