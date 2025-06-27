@@ -4,4 +4,5 @@ slide-content: Dive deeper into what QuPath can do by checking out the tutorials
 slide-img: /assets/images/slideshow/qupath-youtube.png
 slide-img-class: inverse screenshot-img
 slide-text-class: inverse-text
+priority: 4
 ---
