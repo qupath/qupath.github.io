@@ -9,3 +9,4 @@ repository: qupath/qupath.github.io
 collections:
   slides:
     _hide_content: true
+    sort_by: priority
