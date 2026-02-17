@@ -26,7 +26,7 @@ description: QuPath is cross-platform, user-friendly open source software for di
 logo: assets/images/favicon.ico
 
 #Banner
-banner: <a href="https://github.com/qupath/qupath/releases/tag/v0.6.0" target=blank>Version 0.6.0 is here!</a>
+banner: <a href="https://github.com/qupath/qupath/releases/tag/v0.7.0-rc1" target=blank>Want the latest features? Help us test 0.7.0-rc1!</a>
 
 #Hero content
 hero-heading: QuPath
